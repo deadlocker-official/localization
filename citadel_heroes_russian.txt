@@ -1,4 +1,4 @@
-﻿"lang"
+"lang"
 {
 	"Language"		"russian"
 	"Tokens"
@@ -6,7 +6,7 @@
 		//-----------------------------------------------------------------------------
 		// Hero Bull // Abrams
 		//-----------------------------------------------------------------------------
-		"citadel_ability_bull_charge"			"Плечом вперёд"
+		"citadel_ability_bull_charge"			"Shoulder Charge"
 		"citadel_ability_bull_charge_quip"		"Абрамс совершает рывок и тащит врагов за собой"
 		"citadel_ability_bull_charge_desc"		"{s:hero_name} делает <span class=\"highlight\">рывок вперёд</span>, тащит за собой врагов и <span class=\"highlight\">оглушает</span> их, если ударится об <span class=\"highlight\">стену</span>. При столкновении с вражескими героями скорость рывка увеличивается."
 		//"modifier_citadel_bull_charging"		"Charging"
@@ -14,7 +14,7 @@
 		"modifier_shoulder_charge_buff"			"Доп. урон"
 		"modifier_charge_drag_enemy"			"Плечом вперёд"
 
-		"citadel_ability_bull_heal"				"Переливание жизни"
+		"citadel_ability_bull_heal"				"Siphon Life"
 		"citadel_ability_bull_heal_quip"		"Высасывает здоровье у врагов впереди"
 		"citadel_ability_bull_heal_desc"		"{s:hero_name} высасывает здоровье врагов, которые находятся впереди и попадают в радиус действия."
 
@@ -23,9 +23,9 @@
 		"NonHeroHealingFactor_label"			"Лечение от остальных"
 		"NonHeroHealingFactor_postfix"			"%"
 
-		"citadel_ability_bull_heal/modifier_bull_heal_aura"				"Переливание жизни"
+		"citadel_ability_bull_heal/modifier_bull_heal_aura"				"Siphon Life"
 
-		"citadel_ability_passive_beefy"			"Адская устойчивость"
+		"citadel_ability_passive_beefy"			"Infernal Resilience"
 		"citadel_ability_passive_beefy_quip"	"Частично излечивает полученный урон"
 		"citadel_ability_passive_beefy_desc"	"{s:hero_name} постепенно <span class=\"highlight\">восстанавливает</span> себе часть здоровья, потерянного при получении урона."
 		"RegenIncomingDamagePercent_label"		"Излечиваемый урон"
@@ -33,7 +33,7 @@
 		"RegenIncomingDamageDuration_label"		"Длительность восстановления"
 		"RegenIncomingDamageDuration_postfix"		" с."
 
-		"citadel_ability_bull_leap"				"Сейсмический удар"
+		"citadel_ability_bull_leap"				"Seismic Impact"
 		"citadel_ability_bull_leap_quip"		"Обрушивается на врагов сверху и оглушает их"
 		"citadel_ability_bull_leap_desc"		"{s:hero_name} <span class=\"highlight\">подпрыгивает высоко в воздух</span>, а затем обрушивается в выбранную точку. Приземление <span class=\"highlight\">наносит урон всем врагам в радиусе действия и оглушает их</span>.<br>Нажмите [{s:iv_attack}], чтобы приземлиться раньше."
 		//"modifier_citadel_bull_leap"			"Boosting"
@@ -52,23 +52,23 @@
 		//"citadel_ability_chain_lightning_t3"	"360 Cone"
 		//"citadel_ability_chain_lightning_t3_desc"	"Chain lightning can hit any enemies around the target."
 
-		"citadel_ability_static_charge"			"Статический заряд"
+		"citadel_ability_static_charge"			"Static Charge"
 		"citadel_ability_static_charge_desc"		"{s:hero_name} накладывает заряд на вражеского героя. После короткой задержки заряд <span class=\"highlight\">наносит урон и оглушает</span> врагов в радиусе действия. <br>Альтернативное применение: наложить заряд на себя."
 		"citadel_ability_static_charge_quip"	"Применение отложенного оглушающего заряда к вражеским героям"
-		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"Статический заряд"
+		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"Static Charge"
 
-		"citadel_ability_lightning_ball"		"Шаровая молния"
+		"citadel_ability_lightning_ball"		"Lightning Ball"
 		"citadel_ability_lightning_ball_quip"	"Запуск разрушительной шаровой молнии"
 		"citadel_ability_lightning_ball_desc"	"{s:hero_name} запускает шаровую молнию, которая движется по прямой и наносит <span class=\"highlight\">урон всем целям в радиусе своего действия</span>. Молния замедляется, если попадает во врагов, и останавливается, если на пути оказываются элементы игрового мира."
 		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} ед. к урону в секунду и +{s:ShockRadius} м к радиусу"
 		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"Замедление шаровой молнии"
 
-		"ability_power_surge"					"Скачок напряжения"
+		"ability_power_surge"					"Power Surge"
 		"ability_power_surge_quip"			"Создание электрических дуг при выстрелах"
 		"ability_power_surge_desc"			"Пули героя <span class=\"highlight\">наносят электрический урон цели</span>. Электрический заряд также отскакивает во <span class=\"highlight\">врагов, которые находятся рядом с целью</span>. Заряд выпускается раз за очередь."
 		"ability_power_surge_t1_desc"			"Электрический урон снижает спиритическую устойчивость на {s:TechResistDebuff}% на {s:DebuffDuration} с."
 		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} ед. к электрическому урону, увеличенный множитель на спиритическую мощь и на {s:ChainCount} отскока больше"
-		"modifier_power_surge"				"Цепная молния"
+		"modifier_power_surge"				"Chain Lightning"
 		"modifier_power_surge_debuff"			"Снижение сопротивляемости спиритизму"
 
 		//"ChainLightningRadius_label"			"Chain Lightning Range"
@@ -81,7 +81,7 @@
 		//"DrainTimeNeeded_label"				"Drain Time for Proc"
 		"DrainTimeNeeded_postfix"				" с."
 
-		"citadel_ability_storm_cloud"			"Грозовое облако"
+		"citadel_ability_storm_cloud"			"Storm Cloud"
 		"citadel_ability_storm_cloud_quip"		"Поражение электрическим разрядом всех врагов в большой области"
 		"citadel_ability_storm_cloud_desc"		"{s:hero_name} образует себя грозовое облако, которое <span class=\"highlight\">наносит урон всем врагам</span> в радиусе действия. Враги не получают урона, если находятся вне вашей видимости. На время применения {s:hero_name} получает бонус к <span class=\"highlight\">сопротивляемости пулям</span>."
 		"citadel_ability_storm_cloud_t1_desc"		"<span class=\"highlight\">+{s:BulletResistOnActive}% к сопротивляемости пулям</span> во время применения грозового облака"
@@ -150,7 +150,7 @@
 		// Hero McGinnis (previous names: // Engineer // Forge )
 		//-----------------------------------------------------------------------------
 
-		"citadel_ability_fissure_wall"			"Призрачная стена"
+		"citadel_ability_fissure_wall"			"Spectral Wall"
 		"citadel_ability_fissure_wall_quip"		"Макгиннис создаёт стену, которая блокирует врагов"
 		"citadel_ability_fissure_wall_desc"		"Макгиннис создаёт стену, <span class=\"highlight\">разделяющую местность</span> пополам. При её создании враги поблизости <span class=\"highlight\">замедляются</span> и <span class=\"highlight\">получают урон</span>. <br>Нажмите [{s:iv_attack}] или [{s:in_ability3}], чтобы возвести стену раньше."
 		"citadel_ability_fissure_wall_t1_desc"	"<span class=\"highlight\">Снимает {s:StaminaReduction} ед. выносливости</span> и на <span class=\"highlight\">{s:BonusDamagePercent}%</span> повышает урон, наносимый поражённым врагам, на {s:DebuffDuration} с."
@@ -162,12 +162,12 @@
 		"WallImpactRange_label"					"Дальность действия"
 		"WallImpactRange_postfix"				" м"
 
-		"citadel_ability_mobile_resupply"		"Лечебный призрак"
+		"citadel_ability_mobile_resupply"		"Medicinal Specter"
 		"citadel_ability_mobile_resupply_quip"	"Вызов лечебного призрака"
 		"citadel_ability_mobile_resupply_desc"	"Макгиннис выпускает призрака, который <span class=\"highlight\">лечит союзников поблизости</span>."
 		"MaxHealthRegenPct_label"				"Восстановление от макс. здоровья"
 		"MaxHealthRegenPct_postfix"				"%"
-		"modifier_mobile_resupply"				"Лечебный призрак"
+		"modifier_mobile_resupply"				"Medicinal Specter"
 		"citadel_ability_mobile_resupply/modifier_mobile_resupply_aura/modifier_mobile_resupply"	"Лечение"
 
 		"FireRateBonus_label"				"Доп. скорострельность"
@@ -178,7 +178,7 @@
 		"citadel_ability_mobile_resupply_t1_desc" "У союзников, которых лечит призрак, на <span class=\"highlight\">{s:AuraFireRateBonus}% повышается скорострельность</span>"
 		"citadel_ability_mobile_resupply_t3_desc"	"В секунду восстанавливается на {s:MaxHealthRegenPct}% больше от макс. объёма здоровья"
 
-		"citadel_ability_shieldedsentry"		"Мини-турель"
+		"citadel_ability_shieldedsentry"		"Mini Turret"
 		"citadel_ability_shieldedsentry_quip"	"Макгиннис развёртывает автоматическую мини-турель"
 		"citadel_ability_shieldedsentry_desc"	"Макгиннис развёртывает мини-турель, которая <span class=\"highlight\">автоматически стреляет во врагов</span>. Через некоторое время турель исчезает.<br>У турели {s:TurretHealthScaling}% от макс. объёма здоровья Макгиннис и сопротивляемость спиритизму {s:TechResist}%. Турель наносит меньше урона солдатам и ключевым целям."
 		"citadel_ability_shieldedsentry_t1_desc"	"Турели замедляют передвижение жертв на <span class=\"highlight\">{s:MoveSlowPercent}%</span>"
@@ -206,7 +206,7 @@
 
 		"citadel_ability_fissure_wall/modifier_fissure_wall/modifier_bonus_damage_percent"			"Эффект урона от стены"
 
-		"citadel_ability_rocket_barrage"		"Тяжёлый обстрел"
+		"citadel_ability_rocket_barrage"		"Heavy Barrage"
 		"citadel_ability_rocket_barrage_quip"	"Бомбардировка указанной области ракетами"
 		"citadel_ability_rocket_barrage_desc"	"Макгиннис выпускает залп ракет, которые бьют по заданному месту."
 		"citadel_ability_rocket_barrage_t1_desc"	"<span class=\"highlight\">Замедление передвижения на {s:MoveSlowPercent}%</span>"
@@ -217,13 +217,13 @@
 		"MaxDistance_postfix"					" м"
 		"MinDistance_label"						"Минимальная дальность"
 		"MinDistance_postfix"					" м"
-		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "Замедление от тяжёлого обстрела"	 
+		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "Замедление от Heavy Barrage"	 
 
 		//-----------------------------------------------------------------------------
 		// Wraith
 		//-----------------------------------------------------------------------------
 
-		"citadel_ability_psychic_lift"			"Телекинез"
+		"citadel_ability_psychic_lift"			"Telekinesis"
 		"citadel_ability_psychic_lift_quip"		"Поднимает в воздух врага, чтобы остановить и обезмолвить его"
 		"citadel_ability_psychic_lift_desc"		"{s:hero_name} поднимает вражеского героя в воздух и <span class=\"highlight\">оглушает</span> его на некоторое время. После приземления цель получает урон от телекинеза."
 		"citadel_ability_psychic_lift/lift"		"Телекинез"
@@ -233,7 +233,7 @@
 
 		//"citadel_ability_psychic_daggers_desc"		"Telekinetically throw cards that <span class=\"highlight\">hit random targets</span> around you."
 
-		"citadel_ability_projectmind"			"Проекция разума"
+		"citadel_ability_projectmind"			"Project Mind"
 		"citadel_ability_projectmind_quip"		"Телепортация в указанное место"
 		"citadel_ability_projectmind_desc"			"<span class=\"highlight\">Телепортация</span> в указанное место."
 		"BulletShieldOnLand_label"				"Щит от пуль после телепортации"
@@ -250,13 +250,13 @@
 		//"citadel_ability_psychic_daggers_t3_desc"	"Each card <span class=\"highlight\">bounces once</span> onto another enemy in range"
 		//"DamagePerDagger_label"					"Damage per card"
 
-		"citadel_ability_wraith_rapidfire"		"Сверхбыстрая стрельба"
+		"citadel_ability_wraith_rapidfire"		"Full Auto"
 		"citadel_ability_wraith_rapidfire_quip"	"Повышение скорострельности"
 		"citadel_ability_wraith_rapidfire_desc"	"{s:hero_name} временно повышает свою <span class=\"highlight\">скорострельность</span>. Союзники поблизости получают половину от этого бонуса."
 		//"citadel_ability_wraith_rapidfire/modifier_rapidfire" "Rapid Fire"
 		 
 
-		"citadel_ability_card_toss"	"Карточный трюк"
+		"citadel_ability_card_toss"	"Card Trick"
 		"citadel_ability_card_toss_quip" "Бросок самонаводящихся карт"
 		"citadel_ability_card_toss_desc" "Нужно наносить урон пулями, чтобы призвать карты. После активации умения карта летит во врага или в точку под прицелом."
 		"CardResourceGenPctScale_label"				"Скорость накопления"
@@ -352,7 +352,7 @@
 		//-----------------------------------------------------------------------------
 		// Paradox (previous name: // Chrono)
 		//-----------------------------------------------------------------------------
-		"citadel_ability_chrono_time_wall"		"Стена времени"
+		"citadel_ability_chrono_time_wall"		"Time Wall"
 		"citadel_ability_chrono_time_wall_quip"	"Создание стены, которая значительно замедляет снаряды"
 		"citadel_ability_chrono_time_wall_desc"	"{s:hero_name} создаёт стену, которая <span class=\"highlight\">останавливает время</span> для всех <span class=\"highlight\">вражеских снарядов и пуль</span>, которые в неё попадают. Враги, коснувшиеся стены, ненадолго <span class=\"highlight\">замедляются</span>."
 		//"TargetGameplayTimeScale_label"			"Time Scale"
@@ -367,7 +367,7 @@
 		"DamagePctPerWallHit_postfix"				"%"
 		"TimeScaleDuration_label"					"Длительность остановки времени"
 		"TimeScaleDuration_postfix"				" с."
-		"modifier_citadel_chrono_time_wall_effect"  "Стена времени"
+		"modifier_citadel_chrono_time_wall_effect"  "Time Wall"
 		//"citadel_ability_chrono_time_wall_t1_desc"		"The wall speeds up <span class=\"highlight\">Paradox's movement.</span>"
 		"citadel_ability_chrono_time_wall_t1_desc"		"<span class=\"highlight\">+{s:TimeWallWidth} м</span> в ширину,<br><span class=\"highlight\">+{s:TimeWallHeight} м</span> в высоту"
 		"citadel_ability_chrono_time_wall_t2_desc"	"Стена времени наносит урон в размере <span class=\"highlight\">{s:DamagePctPerWallHit}%</span> от макс. здоровья"
@@ -381,7 +381,7 @@
 		//"citadel_ability_time_bomb_t3_desc"		"<span class=\"highlight\">+{s:Damage} Damage</span> and Time Bomb gains <span class=\"highlight\">+50% more damage</span> from Spirit Power"
 		//"chrono_time_trap_debuff"					"Time Bomb"
 
-		"citadel_ability_chrono_pulse_grenade"			"Пульсирующая граната"
+		"citadel_ability_chrono_pulse_grenade"			"Pulse Grenade"
 		"citadel_ability_chrono_pulse_grenade_quip"		"Бросок гранаты, которая наносит урон и замедляет врагов при пульсации"
 		"citadel_ability_chrono_pulse_grenade_desc"		"Парадокс бросает гранату, которая начинает пульсировать после приземления. Каждый импульс <span class=\"highlight\">наносит урон, замедляет передвижение и накладывает накапливаемый эффект повышения урона</span> от Парадокса."
 		"citadel_ability_chrono_pulse_grenade_t3_desc"		"<span class=\"highlight\">+{s:PulseDamage} ед.</span> к урону от импульса и <span class=\"highlight\">+{s:RadiusIncreasePerPulse} м</span> к радиусу за импульс."
@@ -396,10 +396,10 @@
 		"PulseGrenadeDamageAmplificationPerStack_postfix"						"%"
 		"PulseGrenadeDebuffDuration_label"				"Длит. эффекта повыш. урона"
 		"PulseGrenadeDebuffDuration_postfix"						" с."
-		"modifier_pulsegrenade_magic_resist_debuff"		"Пульсирующая граната"
+		"modifier_pulsegrenade_magic_resist_debuff"		"Pulse Grenade"
 
-		"modifier_citadel_chrono_pulse_grenade_debuff"					"Пульсирующая граната"
-		"modifier_chrono_pulse_grenade_tech_resist_debuff"				"Пульсирующая граната — снижение сопротивляемости спиритизму"
+		"modifier_citadel_chrono_pulse_grenade_debuff"					"Pulse Grenade"
+		"modifier_chrono_pulse_grenade_tech_resist_debuff"				"Pulse Grenade - Spirit Resist Down"
 
 
 		"TriggerDelay_label"						"Задержка до взрыва"
@@ -426,7 +426,7 @@
 		//"TimeSaveSpeedPenaltyDuration_label"		"Time Penalty Duration"
 		"TimeSaveSpeedPenaltyDuration_postfix"	" с."
 
-		"citadel_ability_chrono_swap"				"Парадоксальная перестановка"
+		"citadel_ability_chrono_swap"				"Paradoxical Swap"
 		"citadel_ability_chrono_swap_quip"		"Обмен позициями с вражеским героем"
 		"modifier_chrono_swap_bubble_move"		"Парадоксальная перестановка"
 		"citadel_ability_chrono_swap_desc"		"Парадокс бросает снаряд, который <span class=\"highlight\">меняет её и вражеского героя местами</span>. На время перестановки Парадокс получает <span class=\"highlight\">кражу здоровья спиритизмом</span>, а врагу <span class=\"highlight\">наносится урон</span>."
@@ -459,7 +459,7 @@
 		//"MinDuration_label"						"Min Duration"
 		"MinDuration_postfix"						" с."
 
-		"citadel_ability_chrono_kinetic_carbine"		"Кинетический карабин"
+		"citadel_ability_chrono_kinetic_carbine"		"Kinetic Carbine"
 		"citadel_ability_chrono_kinetic_carbine_quip"	"Заряд оружия для нанесения большого урона и остановки времени"
 		"citadel_ability_chrono_kinetic_carbine_desc"	"{s:hero_name} начинает заряжать своё оружие и получает <span class=\"highlight\">повышенную скорость передвижения</span> после полной зарядки. При следующем выстреле выпускается энергия, которая наносит <span class=\"highlight\">спиритический урон</span> и <span class=\"highlight\">останавливает время</span> для поражённого врага. Наносимый урон рассчитывается с помощью повышения текущего урона от пуль. <br><br>Время можно замедлить для себя, нажав на [{s:iv_attack2}] в прыжке после полной зарядки."
 		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"{s:AbilityCooldown} с. от времени перезарядки умения и +{s:SpeedBoostDuration} с. к длительности ускорения"
@@ -530,7 +530,7 @@
 		//-----------------------------------------------------------------------------
 		// Infernus
 		//-----------------------------------------------------------------------------
-		"ability_incendiary_projectile"			"Катализатор"
+		"ability_incendiary_projectile"			"Catalyst"
 		"ability_incendiary_projectile_quip"	"Выброс напалма, усиливающего урон"
 		"ability_incendiary_projectile_desc"	"Инфернус извергает напалм, <span class=\"highlight\">увеличивающий его урон</span> по задетым врагам и <span class=\"highlight\">замедляющий их передвижение</span>."
 		"ability_incendiary_projectile_t2_desc"	"<span class=\"highlight\">+{s:LifestealPercentHero}% к краже здоровья</span> у жертв"
@@ -539,7 +539,7 @@
 		"DamageAmplification_postfix"			"%"
 		//"modifier_citadel_incendiaryprojectile_burn" "Burning from Incendiary"
 
-		"ability_flame_dash"			"Пламенный рывок"
+		"ability_flame_dash"			"Flame Dash"
 		"ability_flame_dash_quip"		"Инфернус бежит вперёд, оставляя за собой следы пламени"
 		"ability_flame_dash_desc"		"{s:hero_name} бежит вперёд <span class=\"highlight\">с высокой скоростью</span>, оставляя за собой пламенный след, который <span class=\"highlight\">обжигает врагов</span>. На время действия {s:hero_name} получает +{s:SlowResistancePercent}% к сопротивляемости замедлениям. <br>Удерживайте [{s:iv_attack}], чтобы бежать быстрее."
 		"ability_flame_dash_t1_desc"	"<span class=\"highlight\">Снижение скорострельности на {s:FireRateSlow}%</span> на {s:FlameDashDebuffDuration} с."
@@ -570,9 +570,9 @@
 		"FlameAuraSlowFireRate_postfix"		"%"
 		"FlameAuraDuration_label"				"Длительность эффекта"
 		"FlameAuraDuration_postfix"			" с."
-		"modifier_flamedash_debuff"			"Пламенный рывок"
+		"modifier_flamedash_debuff"			"Flame Dash"
 
-		"ability_afterburn"			"Тление"
+		"ability_afterburn"			"Afterburn"
 		"ability_afterburn_quip"	"Выстрелы, поджигающие врагов"
 		"ability_afterburn_desc"	"От пуль Инфернуса на врагах накапливается эффект, <span class=\"highlight\">при срабатывании поджигающий их</span>. Дальнейшие попадания выстрелами или умениями героя <span class=\"highlight\">обновляют</span> длительность эффекта."
 		"ability_afterburn_t1_desc"	"<span class=\"highlight\">{s:AfterburnSpiritDamageReduction}%</span> от спиритического урона, который наносят жертвы"
@@ -589,11 +589,11 @@
 		//"afterburn_spirit_stolen_buff"			"Spirit Taken"
 
 
-		"ability_afterburn/modifier_afterburn_watcher/modifier_afterburn_dot"					"Горение от «Тления»"
-		"modifier_afterburn_dot"		"Горение от «Тления»"
+		"ability_afterburn/modifier_afterburn_watcher/modifier_afterburn_dot"					"Горение от «Afterburn»"
+		"modifier_afterburn_dot"		"Горение от «Afterburn»"
 
 
-		"ability_fire_bomb"				"Сотрясающий взрыв"
+		"ability_fire_bomb"				"Concussive Combustion"
 		"ability_fire_bomb_quip"		"После небольшой задержки Инфернус оглушает врагов поблизости"
 		"ability_fire_bomb_desc"		"Инфернус становится живой бомбой, которая после небольшой задержки взрывается и <span class=\"highlight\">оглушает всех врагов</span> в радиусе действия."
 		"ability_fire_bomb_t2_desc"		"<span class=\"highlight\">+{s:StunDuration} с.</span> оглушения и <span class=\"highlight\">+{s:Radius} м</span> к радиусу"
@@ -709,7 +709,7 @@
 		// Haze
 		//-----------------------------------------------------------------------------
 
-		"ability_sleep_dagger"			"Усыпляющий кинжал"
+		"ability_sleep_dagger"			"Sleep Dagger"
 		"ability_sleep_dagger_quip"		"Усыпляет врага"
 		"ability_sleep_dagger_desc"		"{s:hero_name} бросает кинжал, который <span class=\"highlight\">наносит урон</span> и <span class=\"highlight\">усыпляет</span> цель. Спящие цели просыпаются вскоре после получения урона. Бросок кинжала не лишает вас невидимости и не прерывает активированные умения врагов."
 		"ability_sleep_dagger/modifier_citadel_sleep_bomb/modifier_citadel_sleep_dagger_asleep"		"Сон"
@@ -729,7 +729,7 @@
 		"SleepDuration_postfix"			" с."
 		"modifier_citadel_sleep_dagger_postsleep"	"Урон уменьшен"
 
-		"ability_stacking_damage"		"Пристальный взгляд"
+		"ability_stacking_damage"		"Fixation"
 		"ability_stacking_damage_quip"	"Нанесение большого урона пулями"
 		"ability_stacking_damage_desc"	"Стрельба по цели <span class=\"highlight\">увеличивает урон, наносимый ей выстрелами</span>. Сила эффекта <span class=\"highlight\">суммируется</span>: +2 ед. при попадании в голову, +1 ед. — в другие части тела."
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage"		"Под пристальным взглядом"
@@ -742,7 +742,7 @@
 		"DamageBonusFixedPerStack_postfix"					" за эффект"
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage/slow"			"Замедление"
 
-		"ability_smoke_bomb"			"Дымовая шашка"
+		"ability_smoke_bomb"			"Smoke Bomb"
 		"ability_smoke_bomb_quip"		"Исчезновение из вида"
 		"ability_smoke_bomb_desc"		"Позволяет скрыться благодаря <span class=\"highlight\">невидимости</span> и <span class=\"highlight\">повышению скорости передвижения</span>. {s:hero_name} теряет невидимость, если начинает атаковать, и становится видимой для врагов, подошедших слишком близко."
 		//"ability_smoke_bomb_t1_desc"	"<span class=\"highlight\">{s:AbilityCooldown}s</span> Ability Cooldown"
@@ -752,7 +752,7 @@
 		"modifier_citadel_smoke_bomb_invis" 	"Невидимость"
 		//"ability_smoke_bomb/modifier_buff"		"Stabilizer"
 
-		"ability_bullet_flurry"			"Танец пуль"
+		"ability_bullet_flurry"			"Bullet Dance"
 		"ability_bullet_flurry_quip"	"Шквал пуль по ближайшим врагам"
 		"ability_bullet_flurry_desc"	"{s:hero_name} входит в кураж и начинает <span class=\"highlight\">стрелять</span> по врагам поблизости с <span class=\"highlight\">идеальной точностью</span>."
 		//"ability_bullet_flurry/modifier_citadel_bullet_flurry"		"Bullet Flurry"
@@ -764,7 +764,7 @@
 		//-----------------------------------------------------------------------------
 		// Sumo // dynamo
 		//-----------------------------------------------------------------------------
-		"citadel_ability_stomp"					"Кинетический импульс"
+		"citadel_ability_stomp"					"Kinetic Pulse"
 		"citadel_ability_stomp_quip"			"Наземный импульс, который подбрасывает врагов в воздух"
 		"citadel_ability_stomp_desc"			"Динамо выпускает энергетический импульс, который подбрасывает врагов в воздух."
 		"citadel_ability_stomp_t1_desc"			"<span class=\"highlight\">Снижает</span> скорострельность и скорость передвижения жертв на <span class=\"highlight\">{s:SlowPercent}%</span>. Длительность: <span class=\"highlight\">{s:SlowDuration} с.</span>"
@@ -778,7 +778,7 @@
 		"StompWidth_postfix"					" м"
 		"modifier_stomp_debuff"					"Эффект от импульса"
 
-		"citadel_ability_void_sphere"				"Квантовое запутывание"
+		"citadel_ability_void_sphere"				"Quantum Entanglement"
 		"citadel_ability_void_sphere_quip"		"Динамо исчезает, чтобы переместиться в пространстве"
 		"citadel_ability_void_sphere_desc"		"{s:hero_name} ненадолго <span class=\"highlight\">исчезает в пустоту</span>, а затем появляется невдалеке с <span class=\"highlight\">перезаряженным оружием</span> и <span class=\"highlight\">повышенной скорострельностью</span> следующей обоймы (макс. на {s:FireRateBonusDurationMax} с.). Если активировать умение кнопкой альтернативного огня, оно также перенесёт союзников поблизости и даст им половину от бонуса к скорострельности."
 		"citadel_ability_void_sphere_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}</span> c. от времени перезарядки. После появления базовый боезапас <span class=\"highlight\">увеличивается на {s:BonusClipSizePercent}%</span>."
@@ -806,7 +806,7 @@
 		"TechShieldDuration_label"				"Время действия щита"
 		"TechShieldDuration_postfix"			" с."
 
-		"citadel_ability_self_vacuum"			"Сингулярность"
+		"citadel_ability_self_vacuum"			"Singularity"
 		"citadel_ability_self_vacuum_quip"		"Динамо притягивает и оглушает вражескую команду"
 		"citadel_ability_self_vacuum_desc"		"Динамо создаёт в своих руках сингулярность, которая <span class=\"highlight\">притягивает врагов поблизости и наносит им урон</span>, а в конце действия подбрасывает их в воздух."
 		"citadel_ability_self_vacuum_t3_desc"		"Каждую секунду отнимает <span class=\"highlight\">{s:DamagePercentHealth}%</span> от макс. здоровья врагов"
@@ -815,7 +815,7 @@
 		"DamagePercentHealth_label"				"Урон от макс. здоровья"
 		"DamagePercentHealth_postfix"				"%"
 
-		"citadel_ability_nikuman"				"Восстановительное сияние"
+		"citadel_ability_nikuman"				"Rejuvenating Aurora"
 		"citadel_ability_nikuman_quip"			"Исцеляет героя и тех, кто его окружает"
 		"citadel_ability_nikuman_desc"			"Во время действия {s:hero_name} и союзники поблизости <span class=\"highlight\">постепенно восстанавливают здоровье</span>. Рывки не прерывают это умение."
 		"citadel_ability_nikuman/modifier_nikuman"	"Восстановительное сияние"
@@ -895,7 +895,7 @@
 		//-----------------------------------------------------------------------------
 		// Warden 
 		//-----------------------------------------------------------------------------
-		"ability_warden_lock_down"				"Сковывающее слово"
+		"ability_warden_lock_down"				"Binding Word"
 		"ability_warden_lock_down_quip"			"Проклятие, которое обездвиживает цели, если они не убегут"
 		"ability_warden_lock_down_desc"			"Дозорный проклинает вражеского героя. Если тот остаётся на месте, не воспользовавшись <span class=\"highlight\">временем для побега</span>, он <span class=\"highlight\">получает урон</span> и <span class=\"highlight\">обездвиживается</span>."
 		"ability_warden_lock_down_t3_desc"		"Дозорный наносит попавшимся героям на <span class=\"highlight\">{s:BulletArmorReduction}% больше урона пулями</span> в течение <span class=\"highlight\">{s:BulletArmorReductionDuration} с.</span>"
@@ -905,11 +905,11 @@
 		"EscapeRange_postfix"						" м"
 		"EscapeTime_label"						"Время для побега"
 		"EscapeTime_postfix"						" с."
-		"modifier_warden_lockdown_debuff"			"Сковывающее слово"
+		"modifier_warden_lockdown_debuff"			"Binding Word"
 		"modifier_warden_lockdown_debuff_hint"	"Покиньте область, чтобы вас не сковали"
-		"modifier_warden_lockdown_root"			"Сковывающее слово"
+		"modifier_warden_lockdown_root"			"Binding Word"
 
-		"ability_warden_high_alert"				"Сила воли"
+		"ability_warden_high_alert"				"Willpower"
 		"ability_warden_high_alert_quip"			"Герой получает щит от спиритизма и повышенную скорость передвижения"
 		"ability_warden_high_alert_desc"			"{s:hero_name} получает <span class=\"highlight\">щит от спиритизма</span> и <span class=\"highlight\">повышенную скорость передвижения</span>."
 		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:TechShieldPoints}</span> ед. к прочности щита от спиритизма; она также растёт с повышением спиритической мощи"
@@ -917,10 +917,10 @@
 		"MoveSpeedBonusPct_postfix"				"%"
 		"TechShieldPoints_label"					"Прочность щита от спиритизма"
 
-		"modifier_warden_high_alert"				"Сила воли"
+		"modifier_warden_high_alert"				"Willpower"
 		//"modifier_warden_high_alert_hint"			""
 
-		"ability_warden_crowd_control"			"Алхимическая колба"
+		"ability_warden_crowd_control"			"Alchemical Flask"
 		"ability_warden_crowd_control_quip"		"Нанесение урона врагам поблизости и накладывание негативных эффектов"
 		"ability_warden_crowd_control_desc"		"{s:hero_name} бросает колбу, которая <span class=\"highlight\">наносит врагам урон, замедляет их передвижение</span> и уменьшает <span class=\"highlight\">урон от их пуль</span>."
 		"ability_warden_crowd_control_t1_desc"	"Жертвы теряют <span class=\"highlight\">{s:StaminaReduction} ед. выносливости</span>"
@@ -929,14 +929,14 @@
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"Урон от пуль"
 		"WeaponPowerDebuff_postfix"				"%"
-		"modifier_warden_crowd_control_debuff"	"Алхимическая колба"
+		"modifier_warden_crowd_control_debuff"	"Alchemical Flask"
 		"FlaskDebuffDuration_label"				"Длительность ослабления оружия"
 		"FlaskDebuffDuration_postfix"			" с."
 
-		"ability_warden_riot_protocol"			"Последний бой"
+		"ability_warden_riot_protocol"			"Last Stand"
 		"ability_warden_riot_protocol_quip"		"Импульсы, отнимающие здоровье у врагов"
 		"ability_warden_riot_protocol_desc"		"После подготовки в {s:AbilityCastDelay} с. {s:hero_name} <span class=\"highlight\">выпускает импульсы, которые наносят урон врагам и лечат его</span> пропорционально нанесённому урону. <br>При подготовке этого умения ваша <span class=\"highlight\">сопротивляемость пулям и спиритизму</span> значительно увеличивается."
-		"modifier_warden_riot_protocol"			"Последний бой"
+		"modifier_warden_riot_protocol"			"Last Stand"
 		"modifier_warden_riot_protocol_enemy_debuff"	"Замедление"
 
 		//UnstoppableCastDelay
@@ -960,7 +960,7 @@
 		//-----------------------------------------------------------------------------
 		// Wrecker
 		//-----------------------------------------------------------------------------
-		"ability_wrecking_ball"				"Разрушительный шар"
+		"ability_wrecking_ball"				"Wrecking Ball"
 		"ability_wrecking_ball_quip"			"Бросает шар из металлолома, который оглушает врагов"
 		"ability_wrecking_ball_desc"			"{s:hero_name} создаёт большой шар металлолома, который можно бросить, чтобы <span class=\"highlight\">нанести урон и оглушить</span> первого врага, в которого он попадёт. На создание шара требуется время. Пока {s:hero_name} держит шар, у него ниже скорость передвижения."
 		"WreckingBallDamage_label"			"Урон"
@@ -968,10 +968,10 @@
 		"WreckingBallPickupTime_postfix"		" с."
 		"MoveSpeedLimit_label"				"Скорость передвижения"
 		"MoveSpeedLimit_postfix"				" м/с"
-		"modifier_wrecking_ball_auto_throw"	"Разрушительный шар"
+		"modifier_wrecking_ball_auto_throw"	"Wrecking Ball"
 		"hint_throw_wrecking_ball"			"Бросить шар"
 
-		"ability_wrecker_salvage"			"Поглощение"
+		"ability_wrecker_salvage"			"Consume"
 		"ability_wrecker_salvage_desc"		"{s:hero_name} вцепляется во врага и <span class=\"highlight\">наносит ему урон</span> во время действия умения. Убийство даёт бонус к <span class=\"highlight\">скорострельности</span> и восстанавливает заряд <span class=\"highlight\">«Биовзрыва»</span>. Этот бонус суммируется независимо от других."
 		"ability_wrecker_salvage_quip"		"Поглощает вражеского или нейтрального солдата"
 		"FireRateBuffDuration_label"			"Длительность действия бонуса"
@@ -984,7 +984,7 @@
 		"ability_wrecker_salvage/modifier_wrecker_salvage"	 "Приковывание"
 		"modifier_wrecker_salvage_buff"		"Скорострельность повышена"
 
-		"ability_scrap_blast"					"Биовзрыв"
+		"ability_scrap_blast"					"Bio Blast"
 		"ability_scrap_blast_desc"			"{s:hero_name} выпускает волну поглощённого металлолома, <span class=\"highlight\">нанося урон</span> врагам и <span class=\"highlight\">замедляя</span> их. При многократном попадании замедление усиливается."
 		"ability_scrap_blast_quip"			"Выпускает волну биомассы"
 		"EnemyMoveSlow_label"					"Замедление врага за попадание"
@@ -994,7 +994,7 @@
 		"ScrapDamage_label"					"Урон"
 		"ability_scrap_blast/modifier_scrap_blast_debuff"		"Замедление"
 
-		"ability_wrecker_ultimate"			"Магнитный поток"
+		"ability_wrecker_ultimate"			"Magnetic Flux"
 		"ability_wrecker_ultimate_desc"		"{s:hero_name} <span class=\"highlight\">хватает</span> любого врага, на которого взглянет, <span class=\"highlight\">погружает его в стазис</span> и удерживает над головой. По окончании <span class=\"highlight\">наносит урон</span> всем захваченным врагам и <span class=\"highlight\">оглушает</span> их. Персонажам, которые не являются героями, <span class=\"highlight\">ничего не будет</span>."
 		//"ThrowDamage_label"					"Throw Damage"
 		//"GrabRange_label"						"Grab Range"
@@ -1003,7 +1003,7 @@
 
 		"wrecker_ultimate_grab_debuff"		"Стазис"
 
-		"ability_wrecker_teleport"			"Астральная прогулка"
+		"ability_wrecker_teleport"			"Astral Walk"
 		"ability_wrecker_teleport_desc"		"{s:hero_name} запускает <span class=\"highlight\">свой управляемый летающий призрак</span>, в место приземления которого можно <span class=\"highlight\">телепортировать</span> настоящее тело. Взрыв от телепортации <span class=\"highlight\">замедляет противников и наносит им урон</span>, зависящий от продолжительности вашего полёта."
 		"ability_wrecker_teleport_quip"		"Запустите летающий призрак себя и телепортируйтесь в своём настоящем теле на место приземления призрака"
 		"DamagePerSecondFlown_label"			"Урон за секунду полёта"
@@ -1011,7 +1011,7 @@
 		//-----------------------------------------------------------------------------
 		// Lash
 		//-----------------------------------------------------------------------------
-		"citadel_ability_lash"					"Сцепка"
+		"citadel_ability_lash"					"Grapple"
 		"citadel_ability_lash_quip"				"Подтягивание себя к цели с помощью хлыста"
 		"citadel_ability_lash_desc"				"Хлыст <span class=\"highlight\">подтягивает себя по воздуху</span> к цели. Использование этого умения также сбрасывает ограничение на <span class=\"highlight\">прыжки в воздухе и рывки</span>."
 
@@ -1027,7 +1027,7 @@
 		"WeaponDamageBonusDuration_label"			"Длительность действия бонуса"
 		"WeaponDamageBonusDuration_postfix"		" с."
 
-		"citadel_ability_lash_down_strike"			"Удар по земле"
+		"citadel_ability_lash_down_strike"			"Ground Strike"
 		"citadel_ability_lash_down_strike_quip"		"Удар по земле, наносящий урон врагам"
 		"citadel_ability_lash_down_strike_desc"		"Хлыст бьёт ногой по земле, <span class=\"highlight\">нанося урон врагам</span> перед собой. Если умение применяется в воздухе, Хлыст делает рывок вниз. После 25 м урон нарастает медленнее."
 		"StompDamagePerMeterPrimary_label"					"Урон за метр"
@@ -1050,7 +1050,7 @@
 		//"LashLaunchHeight_label"					"Lash Launch Height"
 		"LashLaunchHeight_postfix"				" м"
 
-		"ability_lash_flog"						"Порка"
+		"ability_lash_flog"						"Flog"
 		"ability_lash_flog_quip"				"Кража здоровья у целей, находящихся впереди"
 		"ability_lash_flog_desc"				"Герой наносит врагам удар хлыстом, <span class=\"highlight\">отнимая у них здоровье</span>."
 		"ability_lash_flog_t1_desc"				"Замедление передвижения на <span class=\"highlight\">{s:EnemySlowPct}%</span> на {s:EnemySlowDuration} с."
@@ -1065,7 +1065,7 @@
 		"WeaponPowerScalingTooltip_postfix"		"%"
 		"TargetingConeAngle_label"				"Угол атаки"
 		"TargetingConeAngle_postfix"				"º"
-		"ability_lash_flog/modifier_lash_flog_debuff"	"Порка"
+		"ability_lash_flog/modifier_lash_flog_debuff"	"Flog"
 
 		//"citadel_ability_lash_high_explosive"	"High Explosive"
 		//"citadel_ability_lash_high_explosive_desc"	"Lash starts charging his grenade; the longer the grenade is held before being thrown, the more damage it does. Press the button again to throw it a short distance in front of Lash, exploding on contact."
@@ -1075,10 +1075,10 @@
 		"GrenadeExplosionRadius_postfix"			" м"
 		"GrenadeDamage_label"						"Урон он взрыва"
 
-		"citadel_ability_lash_ultimate"			"Смертельный бросок"
+		"citadel_ability_lash_ultimate"			"Death Slam"
 		"citadel_ability_lash_ultimate_quip"		"Хлыст поднимает врагов в воздух и бросает их на землю"
 		"citadel_ability_lash_ultimate_desc"		"Хлыст фиксируется на врагах и зацепляет их кнутами. После подготовки он <span class=\"highlight\">подбрасывает и оглушает врагов</span>, а затем бьёт их об землю. Упавшие жертвы и враги, находящиеся в зоне их падения, <span class=\"highlight\">получают урон и замедляются</span>. <br>Нажмите [{s:iv_attack}], чтобы сбросить зацепленных врагов раньше. Враги, находящиеся вне поля зрения или вышедшие из него во время подготовки, не будут схвачены."
-		"citadel_ability_lash_ultimate/modifier_lash_grapple_enemy_debuff"		"Смертельный бросок"
+		"citadel_ability_lash_ultimate/modifier_lash_grapple_enemy_debuff"		"Death Slam"
 		"citadel_ability_lash_ultimate_debuff"	"Замедление передвижения"
 
 		"ImpactRadius_label"						"Радиус действия"
@@ -1091,23 +1091,23 @@
 		//-----------------------------------------------------------------------------
 		// Kelvin
 		//-----------------------------------------------------------------------------
-		"ability_icebeam/modifier_buildup"		"Заморозка"
-		"ability_icepath/modifier_icepath"		"Ледяная дорожка"
+		"ability_icebeam/modifier_buildup"		"Freezing"
+		"ability_icepath/modifier_icepath"		"Ice Path"
 		//"modifier_citadel_crystal_shield"		"Absorbing Damage"
 
-		"ability_ice_grenade"				"Леденящая граната"
+		"ability_ice_grenade"				"Frost Grenade"
 		"ability_ice_grenade_quip"			"Наносит врагам урон и замедляет их"
 
 		"ability_ice_grenade_desc"			"Кельвин бросает леденящую гранату, взрыв которой <span class=\"highlight\">наносит врагам урон</span> и <span class=\"highlight\">замедляет</span> их."
 		"ability_ice_grenade_t2_desc"		"Граната <span class=\"highlight\">восстанавливает союзникам {s:HealAmount} здоровья</span> (её действие усиливается с повышением спиритической мощи)"
-		"ability_ice_grenade/kelvin_ice_grenade_slow"	"Замедление леденящей гранаты"
+		"ability_ice_grenade/kelvin_ice_grenade_slow"	"Замедление от «Frost Grenade»"
 
-		"ability_icebeam"					"Арктический луч"
+		"ability_icebeam"					"Arctic Beam"
 		"ability_icebeam_quip"				"Усиливающееся замедление"
 		"ability_icebeam_desc"				"{s:hero_name} стреляет перед собой лучом леденящей энергии, которая <span class=\"highlight\">наносит урон</span>, а также <span class=\"highlight\">замедляет и снижает скорострельность целей</span> пропорционально длительности их нахождения под лучом. Во время использования умения у героя снижается скорость передвижения. С помощью луча можно собирать шары с душами."
 		"ability_icebeam_t3_desc"			"<span class=\"highlight\">{s:BeamSplitCount} луча</span> по врагам в радиусе {s:BeamSplit} м от последней жертвы"
 		"modifier_citadel_kelvin_frozen"	"Заморожен"
-		"ability_icebeam/modifier_slow"		"Замедление от «Арктического луча»"
+		"ability_icebeam/modifier_slow"		"Замедление от «Arctic Beam»"
 		"MaxSlowPercent_label"				"Макс. замедление"
 		"MaxSlowPercent_postfix"				"%"
 		"MaxSlowTime_label"					"Время до макс. замедления"
@@ -1115,12 +1115,12 @@
 		"modifier_citadel_disarmed_icebeam"	"Оружие заморожено"
 		"IceBeamBuildupProcDuration_label"	"Длительность замедления"
 		"IceBeamBuildupProcDuration_postfix"	" с."
-		"modifier_icebeam_stacking_slow"		"Арктический луч"
+		"modifier_icebeam_stacking_slow"		"Arctic Beam"
 		"BeamSplit_label"						"Доп. дальность луча"
 		"BeamSplit_postfix"					" м"
-		"AbilityButtonHint_CancelIceBeam"	"Прервать «Арктический луч»"
+		"AbilityButtonHint_CancelIceBeam"	"Прервать «Arctic Beam»"
 
-		"ability_icepath"					"Ледяная дорожка"
+		"ability_icepath"					"Ice Path"
 		"ability_icepath_quip"				"Скоростное скольжение по парящей ледяной дорожке"
 		"ability_icepath_desc"				"Кельвин создаёт <span class=\"highlight\">парящую дорожку</span> изо льда и снега, которая ускоряет передвижение — его и союзников. При создании дорожки cопротивляемость замедлениям у Кельвина повышается на {s:SlowResistancePercent}%. Враги тоже могут ходить по дорожке. <br>Нажмите [{s:key_innate_1}] или [{s:key_duck}], чтобы направить дорожку вверх или вниз."
 		"ability_icepath_t3_desc"			"Во время действия Кельвин получает +{s:BonusSpiritMeter} ед. к спиритической мощи за каждый метр дорожки (вплоть до {s:BonusSpiritMax})"
@@ -1134,26 +1134,26 @@
 		"IcePathShardRadius_postfix"			" м"
 		"BonusTechDamagePercent_label"		"Доп. спиритический урон"
 		"BonusTechDamagePercent_postfix"		"%"
-		"ability_icepath/modifier_icepath/modifier_icepath_friendly_aura/modifier_icepath_buff"			"Ледяная дорожка"
-		"AbilityButtonHint_CancelIcePath"	"Прервать «Ледяную дорожку»"
+		"ability_icepath/modifier_icepath/modifier_icepath_friendly_aura/modifier_icepath_buff"			"Ice Path"
+		"AbilityButtonHint_CancelIcePath"	"Прервать «Ice path»"
 		"AbilityButtonHint_IcePathUp"	"Вверх"
 		"AbilityButtonHint_IcePathDown"	"Вниз"
 
 
-		"ability_ice_dome"				"Ледяное укрытие"
+		"ability_ice_dome"				"Frozen Shelter"
 		"ability_ice_dome_quip"			"Создаёт непроницаемый лечебный купол"
 		"ability_ice_dome_desc"			"{s:hero_name} замораживает воздух вокруг себя, создавая <span class=\"highlight\">непробиваемый купол</span>, который <span class=\"highlight\">замедляет</span> врагов и быстро <span class=\"highlight\">восстанавливает здоровье</span> союзников. <br>Ключевые цели под куполом становятся неуязвимыми и замороженными."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">-{s:FireRateSlow}%</span> от скорострельности жертв"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> ед. к восстановлению здоровья; оно усиливается с повышением спиритической мощи"
-		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Ледяное укрытие"
-		"frozen_shelter_modifier_buff"		"Ледяное укрытие"
-		"ability_ice_dome/modifier_ice_dome/ice_dome_enemy_aura/modifier_debuff"	"Ледяное укрытие"
+		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Frozen Shelter"
+		"frozen_shelter_modifier_buff"		"Frozen Shelter"
+		"ability_ice_dome/modifier_ice_dome/ice_dome_enemy_aura/modifier_debuff"	"Frozen Shelter"
 
 
 		//-----------------------------------------------------------------------------
 		// Bebop
 		//-----------------------------------------------------------------------------
-		"citadel_ability_uppercut"				"Взрывной апперкот"
+		"citadel_ability_uppercut"				"Exploding Uppercut"
 		"citadel_ability_uppercut_quip"			"Удар, отбрасывающий противника"
 		"citadel_ability_uppercut_desc"			"{s:hero_name} совершает <span class=\"highlight\">лёгкий удар ближнего боя</span> по существам поблизости, <span class=\"highlight\">отбрасывая их</span>, нанося <span class=\"highlight\">урон в радиусе их приземления</span> и <span class=\"highlight\">снижая их скорострельность</span>. Не наносит урона союзникам."
 		"citadel_ability_uppercut_t2_desc"		"При апперкоте по вражескому герою {s:hero_name} на {s:UppercutBuffOnHit} с. получает <span class=\"highlight\">удвоенную дальность стрельбы, уменьшенную задержку перед ней и +{s:BuffBaseWeaponPct}% к урону от пуль</span>"
@@ -1172,7 +1172,7 @@
 		"ExplodeDebuffDuration_label"			"Длительность снижения скорострельности"
 		"ExplodeDebuffDuration_postfix"			" с."
 
-		"citadel_ability_sticky_bomb"			"Бомба-липучка"
+		"citadel_ability_sticky_bomb"			"Sticky Bomb"
 		"citadel_ability_sticky_bomb_quip"		"Бибоп прикрепляет бомбу к врагу"
 		"citadel_ability_sticky_bomb_desc"		"{s:hero_name} прикрепляет к цели поблизости бомбу-липучку, которая после короткой задержки <span class=\"highlight\">взрывается и наносит урон</span>.<br><br><span class=\"highlight\">Урон от взрыва повышается на {s:BonusDamagePctPerPlayerHit}%</span> за каждого задетого вражеского героя.<br><span class=\"highlight\">Урон от взрыва повышается на {s:BonusDamagePctPerPlayerKilled}%</span> за каждого вражеского героя, убитого в течение {s:KillCheckWindow} с. после получения им урона от взрыва.<br><br>Удерживайте [{s:key_alt_cast}], чтобы прикрепить бомбу к себе."
 		"modifier_citadel_sticky_bomb_attached"	"На вас бомба"
@@ -1180,10 +1180,10 @@
 		"StunTargetOnExplode_label"				"Длительность"
 		"StunTargetOnExplode_postfix"				" с."
 
-		"citadel_ability_bebop_laser_beam"		"Гиперлуч"
+		"citadel_ability_bebop_laser_beam"		"Hyper Beam"
 		"citadel_ability_bebop_laser_beam_quip"	"Бибоп выпускает гигантский смертоносный луч"
 		"citadel_ability_bebop_laser_beam_desc" "{s:hero_name} заряжает лазер и выпускает мощный поток энергии, который <span class=\"highlight\">наносит урон</span> и <span class=\"highlight\">замедляет передвижение и рывки врагов</span>. Во время действия умения {s:hero_name} передвигается и поворачивается медленнее. Если активировать умение в воздухе, {s:hero_name} будет парить, пока луч не исчезнет."
-		"modifier_bebop_laser_beam"				"Гиперлуч"
+		"modifier_bebop_laser_beam"				"Hyper Beam"
 		"citadel_ability_bebop_laser_beam_t3_desc"	"{s:hero_name} излечивается на долю от урона «Гиперлучом»: на <span class=\"highlight\">{s:BeamLifesteal}%</span> от урона героям и на {s:BeamLifestealNonHeroPercent}% — от урона всем остальным"
 		"BeamLength_label"						"Длина луча"
 		"BeamLength_postfix"					" м"
@@ -1191,7 +1191,7 @@
 		"BeamWidth_postfix"						" м"
 
 
-		"citadel_ability_hook"					"Крюк"
+		"citadel_ability_hook"					"Hook"
 		"citadel_ability_hook_quip"				"Бибоп притягивает к себе цель"
 		"citadel_ability_hook_desc"				"{s:hero_name} выпускает крюк, которым <span class=\"highlight\">хватает и притягивает</span> первого попавшегося героя и наносит ему урон, если это враг. Цель оказывается с той стороны, куда смотрит {s:hero_name}."
 		"citadel_ability_hook_t1_desc"			"Бибоп наносит на <span class=\"highlight\">{s:BulletAmp}% больше урона от пуль</span> по схваченным врагам в течение {s:BulletAmpDuration} с."
@@ -1230,7 +1230,7 @@
 		//-----------------------------------------------------------------------------
 		// Astro
 		//-----------------------------------------------------------------------------
-		"ability_explosive_barrel"					"Пороховая бочка"
+		"ability_explosive_barrel"					"Powder Keg"
 		"ability_explosive_barrel_quip"				"Бросок бочки, которая взрывается от выстрела"
 		"ability_explosive_barrel_desc"				"{s:hero_name} запускает бочку, которая взрывается от <span class=\"highlight\">попадания пули</span> или при приземлении, если её запустили <span class=\"highlight\">атакой ближнего боя</span> или с помощью <span class=\"highlight\">трамплина</span>. Имеет минимальное время зарядки до взрыва."
 		"ability_explosive_barrel_t3_desc"			"Длительность перезарядки: {s:AbilityCooldown}<br>Больше нет подготовки перед применением"
@@ -1248,11 +1248,11 @@
 		"BarrelDamageRadius_label"						"Радиус взрыва"
 		"BarrelDamageRadius_postfix"						" м"
 
-		"ability_hat_trick"						"Трюк со шляпой"
+		"ability_hat_trick"						"Hat Trick"
 		"ability_hat_trick_quip"				"Атакует шляпой и раскрывает местонахождение врагов"
 		"ability_hat_trick_desc"				"{s:hero_name} бросает во врагов <span class=\"highlight\">шляпу</span>, которая их <span class=\"highlight\">замедляет</span> и <span class=\"highlight\">раскрывает их местонахождение</span> сквозь стены."
 
-		"ability_bounce_pad"					"Трамплин"
+		"ability_bounce_pad"					"Bounce Pad"
 		"ability_bounce_pad_quip"				"Отправьте себя и других в полёт"
 		"ability_bounce_pad_desc"				"Установка трамплина, который <span class=\"highlight\">отправит вас и других героев в полёт</span>. Импульс от удара во время вашего приземления <span class=\"highlight\">наносит урон</span> всем врагам поблизости.<br><br><span class=\"diminish\">С каждого трамплина можно совершить только один удар при приземлении. </span> "
 		"ability_bounce_pad_t1_desc"			"Вы и ваши союзники получите бонус +{s:SpeedOnLand} м/с к скорости передвижения на {s:SpeedOnLandDuration} с. после приземления"
@@ -1267,7 +1267,7 @@
 		//"MinAirTimeForStomp_postfix"				"s"
 		"ability_bounce_pad/speed_on_land""Скорость передвижения"
 
-		"ability_crackshot"						"Меткий глаз"
+		"ability_crackshot"						"Crackshot"
 		"ability_crackshot_quip"				"Попадания в голову наносят дополнительный урон и замедление"
 		"ability_crackshot_desc"				"Попадания в голову наносят дополнительный <span class=\"highlight\">урон от пуль</span> и накладывают <span class=\"highlight\">затухающее замедление</span>. Этот эффект срабатывает, только когда не перезаряжается. <br><br><span class=\"diminish\">Урон этого умения не зависит от расстояния до жертвы.</span>"
 		"FadingSlowPercent_label" "Затухающее замедление передвижения"
@@ -1321,13 +1321,13 @@
 		"DamageAmplificationPerStack_label"	"Урон за ед. эффекта"
 		"DamageAmplificationPerStack_postfix"	"%"
 
-		"ability_gravity_lasso"				"Спиритическое лассо"
+		"ability_gravity_lasso"				"Spirit Lasso"
 		"ability_gravity_lasso_quip"		"Схватите врага и тащите его за собой"
 		"ability_gravity_lasso_desc"		"{s:hero_name} <span class=\"highlight\">ловит врага</span> в лассо и тащит за собой. Во время действия умения <span class=\"highlight\">противник оглушается</span>, а {s:hero_name} немного замедляется.<br><br>Длительность умения увеличивается на {s:BouncePadExtendDuration} с. во время первого использования трамплина."
 		"modifier_astro_lasso_tether"		"В лассо"
 		"ability_gravity_lasso_t3_desc"		"В зоне применения можно поймать ещё одного врага"
-		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"Спиритическое лассо"
-		"ability_gravity_lasso/modifier_citadel_gravity_lasso_self"		"Спиритическое лассо"
+		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"Spirit Lasso"
+		"ability_gravity_lasso/modifier_citadel_gravity_lasso_self"		"Spirit Lasso"
 		//"ability_astro_shotgun_toggle"			"Force of Nature"
 		//"ability_astro_shotgun_toggle_desc"		"Use to toggle between your pistol and shotgun. The shotgun so powerful it forces {s:hero_name} to move the opposite direction of the shot while airborn. [{s:iv_attack}] shoots forward and [{s:iv_attack2}] shoots behind you with a slight delay. The shotgun uses special bullets that does not benefit from ammo mods. <br><br>Lassoed units do not take damage when shooting backwards."
 		"ClipSizeOverride_label"			"Боезапас"
@@ -1345,7 +1345,7 @@
 		// Hero Nano // Calico
 		//-----------------------------------------------------------------------------
 
-		"ability_perched_predator"				"Дух Сехмета"
+		"ability_perched_predator"				"Sekhmet's Spirit"
 		"ability_perched_predator_desc"			"{s:hero_name} отправляет вперёд дух кота, который хватает цели на своём пути. Если схвачен герой, вскоре происходит взрыв. <br>Нажмите [{s:in_ability1}], чтобы произвести взрыв вручную."
 		"ability_perched_predator_quip"			"Отправка духа кота, хватающего врагов"	
 		//"CatExplosionCount_label"				"Explosions"
@@ -1355,7 +1355,7 @@
 		"CatLifetime_postfix"					" с."
 
 		
-		"ability_nano_pounce"						"Наскок"
+		"ability_nano_pounce"						"Pounce"
 		"ability_nano_pounce_quip"				"Наскок на врагов"
 		"ability_nano_pounce_desc"				"{s:hero_name} <span class=\"highlight\">наскакивает</span> на цель, наносит ей <span class=\"highlight\">урон от лёгкого удара</span> и <span class=\"highlight\">замедляет</span> врагов поблизости. <br>В течение <span class=\"highlight\">{s:DoublePounceTime} с.</span> можно <span class=\"highlight\">наскочить на вторую цель</span>."
 		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration} с.</span> замедления"
@@ -1370,7 +1370,7 @@
 		"PounceFriendlyTargetCD_postfix"			" с."
 		"pounce_double_notify"					"Двойной наскок"
 
-		"ability_nano_proximity_ritual"			"Страж-нэкомата"
+		"ability_nano_proximity_ritual"			"Nekomata Ward"
 		"ability_nano_proximity_ritual_quip"	"Призыв статуи, наблюдающей за областью"
 		"ability_nano_proximity_ritual_desc"	"{s:hero_name} призывает <span class=\"highlight\">статую</span>, отслеживающую врагов в области. Статуя атакует противников, которым {s:hero_name} недавно наносила урон, и снижает их лечение, при этом <span class=\"highlight\">восстанавливая здоровье владелицы</span>."
 		"StatueLifetime_label"					"Время автоматического возвращения"
@@ -1400,7 +1400,7 @@
 		"AbilityButtonHint_AvaWarp"			"Перенестись к Аве"
 		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Недоступно"
 
-		"ability_nano_shadow_step"				"Королева теней"
+		"ability_nano_shadow_step"				"Queen of Shadows"
 		"ability_nano_shadow_step_desc"			"{s:hero_name} помечает врагов и окутывает себя тенью, которая повышает силу её атак и делает её <span class=\"highlight\">невидимой</span>. Атакуя, {s:hero_name} временно теряет невидимость. При нанесении врагам <span class=\"highlight\">ударов в ближнем бою</span> снижается их сопротивляемость пулям (эффект суммируется)."
 		"ability_nano_shadow_step_quip"			"Уход в тень для получения преимущества над врагами"
 		"modifier_nano_shadow_step"			"Теневая поступь"
@@ -1425,7 +1425,7 @@
 		// Grey Talon (previous names: Archer / Orion)
 		// hero_archer
 		//-----------------------------------------------------------------------------
-		"ability_charged_shot"		"Заряженный выстрел"
+		"ability_charged_shot"		"Charged Shot"
 		"ability_charged_shot_quip"	"Заряд на дальний выстрел"
 		"ability_charged_shot_desc"	"Серый Коготь <span class=\"highlight\">совершает мощный выстрел</span>, который пронзает врагов. Удерживайте [{s:ability_key}] или [{s:iv_attack}], чтобы как следует прицелиться."
 		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} ед. к урону</span>"
@@ -1434,7 +1434,7 @@
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		" с."
 
-		"ability_power_jump"			"Дождь из стрел"
+		"ability_power_jump"			"Rain of Arrows"
 		"ability_power_jump_quip"		"Мультивыстрелы в высоком прыжке"
 		"ability_power_jump_desc"		"Серый Коготь подпрыгивает высоко в воздух и начинает медленно парить. Находясь в воздухе, он наносит <span class=\"highlight\">дополнительный урон попаданиями</span> и <span class=\"highlight\">совершает мультивыстрелы</span>.<br>При альтернативном применении высота прыжка меньше.  <br>Нажмите [{s:in_mantle}], чтобы вернуться на землю."
 		"ability_power_jump_t2_desc"	"В воздухе: <span class=\"highlight\">+{s:WeaponDamageBonus}</span> ед. к урону от пуль, который замедляет движение на <span class=\"highlight\">{s:SlowPercent}%</span> в течение {s:SlowDuration} с."
@@ -1449,36 +1449,36 @@
 		"ability_power_jump/modifier_air_raid/modifier_slow_base"			"Замедление"
 
 
-		"ability_immobilize_trap"			"Обездвиживающая ловушка"
+		"ability_immobilize_trap"			"Immobilizing Trap"
 		"ability_immobilize_trap_quip"		"Бросок ловушки, обездвиживающей врагов"
 		"ability_immobilize_trap_desc"		"Серый Коготь <span class=\"highlight\">выбрасывает ловушку</span>, которая начинает заряжаться. После зарядки ловушка <span class=\"highlight\">обездвиживает</span> врагов, попавших в радиус её действия, а затем <span class=\"highlight\">замедляет</span> их."
-		"modifier_citadel_immobilize_trap_immobilize"	"Обездвиживающая ловушка"
+		"modifier_citadel_immobilize_trap_immobilize"	"Immobilizing Trap"
 		"modifier_citadel_immobilize_trap_immobilize_debuff" "Эффект обездвиживающей ловушки"
 		"ability_immobilize_trap_t3_desc"	"Серый Коготь наносит на <span class=\"highlight\">{s:BulletVulnerbility}%</span> больше урона от выстрелов врагам, попавшим в ловушку, в течение <span class=\"highlight\">{s:DebuffDuration} с.</span>"
 		"ability_immobilize_trap/trap_debuff"	"Ослабление спиритической брони"
 
-		"ability_guided_arrow"		"Управляемая сова"
+		"ability_guided_arrow"		"Guided Owl"
 		"ability_guided_arrow_quip"	"Запуск совы для нанесения врагам урона издалека"
 		"ability_guided_arrow_desc"	"После подготовки в {s:AbilityCastDelay} с. Серый Коготь <span class=\"highlight\">выпускает призрачную сову</span>, которая следует его командам и взрывается при столкновении, <span class=\"highlight\">нанося урон и оглушая врагов</span>. Удерживайте [{s:iv_attack}], чтобы ускорить сову.<br>Нажмите [{s:in_mantle}], чтобы взорвать сову. За каждого вражеского героя, убитого совой, <span class=\"highlight\">навсегда даётся спиритическая мощь</span>."
 		"ability_guided_arrow_t3_desc"	"После попадания враги, у которых остаётся менее <span class=\"highlight\">{s:LowHealthEnemyThresholdPct}% здоровья</span>, умирают"
 		"BonusTechPowerPerKill_label"		"Спиритическая мощь за убийство"
 
-		"modifier_citadel_archer_guided_arrow"		"Управляемая сова"
+		"modifier_citadel_archer_guided_arrow"		"Guided Owl"
 
 		//-----------------------------------------------------------------------------
 		// Lady Geist
 		// hero ghost solider
 		//-----------------------------------------------------------------------------
-		"ability_blood_bomb"				"Бомба квинтэссенции"
+		"ability_blood_bomb"				"Essence Bomb"
 		"ability_blood_bomb_quip"			"Запуск разрушительной бомбы за счёт части здоровья"
 		"ability_blood_bomb_desc"			"Леди Гайст <span class=\"highlight\">жертвует частью здоровья</span>, чтобы бросить бомбу, которая <span class=\"highlight\">наносит урон</span> после короткого времени зарядки.<br>Урон, наносимый себе, — спиритический, и его можно уменьшить."
 		"ability_blood_bomb_t3_desc"	"После взрыва на земле образуется токсичный остаток, который наносит <span class=\"highlight\">{s:BloodSpillDPSPercent}%</span> от первоначального <span class=\"highlight\">урона в секунду</span> в течение <span class=\"highlight\">{s:BloodSpillDuration} с</span>."
 
-		"ability_life_drain"				"Высасывание жизни"
+		"ability_life_drain"				"Life Drain"
 		"ability_life_drain_quip"			"Постепенная кража здоровья у врага"
 		"ability_life_drain_desc"			"{s:hero_name} создаёт путы, которыми <span class=\"highlight\">постепенно высасывает здоровье у врагов</span> и <span class=\"highlight\">лечит себя</span>. Цель должна находиться в пределах видимости и радиуса действия. Во время действия можно стрелять и применять другие умения, но скорость передвижения снижается вдвое. <br><span class=\"highlight\">Нажмите [кнопку альт. огня], чтобы излечивать союзных героев</span>. Нажмите [{s:in_ability2}], чтобы отменить."
-		"ability_life_drain/modifier_life_drain" "Высасывание жизни"
-		"ability_life_drain/modifier_life_drain_caster" "Высасывание жизни"
+		"ability_life_drain/modifier_life_drain" "Life Drain"
+		"ability_life_drain/modifier_life_drain_caster" "Life Drain"
 		"modifier_life_drain_silence"		"Безмолвие"
 		//"FriendlyTargetCooldown"			"Ally Target Cooldown"
 		"FriendlyTargetCooldown_postfix"	" с."
@@ -1494,7 +1494,7 @@
 		"HealFriendRadius_label"				"Радиус лечения союзников"
 		"HealFriendRadius_postfix"			" м"
 
-		"ability_health_swap"					"Обмен душами"
+		"ability_health_swap"					"Soul Exchange"
 		"ability_health_swap_quip"			"Обмен уровнем здоровья с вражеским героем"
 		"ability_health_swap_desc"			"Леди Гайст <span class=\"highlight\">обменивается уровнем здоровья</span> с вражеским героем. Для умения определены нижние пределы уменьшения здоровья врага и увеличения своего."
 		"ability_health_swap_t3_desc"			"<span class=\"highlight\">+{s:BonusFireRate}%</span> к скорострельности и <span class=\"highlight\">+{s:TechResist}%</span> к сопротивляемости спиритизму на {s:HealthSwapBuffDuration} с. после применения"
@@ -1518,7 +1518,7 @@
 		//"ability_death_tax_t1_desc"	"Reduce one of your Cooldowns by <span class=\"highlight\">{s:CooldownReductionOnKill}s</span> when a marked enemy dies"
 		//"ability_death_tax_t3_desc"	"Increase Spirit Power by <span class=\"highlight\">{s:TechPowerAmpBonus}</span> for <span class=\"highlight\">{s:TechPowerAmpBonusDuration}s</span> when a marked enemy dies.  Stacks up to <span class=\"highlight\">{s:TechPowerAmpBonusMaxStacks}</span> times."
 
-		"ability_blood_shards"				"Порча"
+		"ability_blood_shards"				"Malice"
 		"ability_blood_shards_quip"			"Суммирование усиленного урона врагу"
 		"ability_blood_shards_desc"			"{s:hero_name} <span class=\"highlight\">жертвует частью здоровья</span>, чтобы бросить кровавые осколки, которые накладывают суммирующийся эффект порчи. Каждый эффект <span class=\"highlight\">замедляет</span> жертву и <span class=\"highlight\">увеличивает урон</span>, получаемый от {s:hero_name}. Замедление со временем ослабевает."
 		"ability_blood_shards_t2_desc"		"<span class=\"highlight\">+{s:HealthToDamage} ед.</span> к здоровью в урон и <span class=\"highlight\">+{s:VulnerabilityPerStack}%</span> к увеличению урона"
@@ -1530,7 +1530,7 @@
 		"VulnerabilityPerStack_prefix"		"+"
 		"VulnerabilityPerStack_postfix"		"%"
 		"SelfDamage_label"					"Урон себе"
-		"ability_blood_shards/modifier_blood_shard_debuff"			"Порча"
+		"ability_blood_shards/modifier_blood_shard_debuff"			"Malice"
 		"ghost_malice_stack_effect_header"	"За ед. эффекта:"
 
 		//"FriendlyTargetCooldown_label"			"Friendly Cooldown"
@@ -1565,7 +1565,7 @@
 		//-----------------------------------------------------------------------------
 		// Vindicta  // hero_hornet
 		//-----------------------------------------------------------------------------
-		"citadel_ability_hornet_chain"				"Кол"
+		"citadel_ability_hornet_chain"				"Stake"
 		"citadel_ability_hornet_chain_quip"			"Бросок кола, приковывающего врагов"
 		"citadel_ability_hornet_chain_desc"			"{s:hero_name} бросает кол, который <span class=\"highlight\">приковывает</span> врагов к месту приземления. Враги могут перемещаться только на длину привязи."
 		"citadel_ability_hornet_chain_t3_desc"		"Прикованные враги также <span class=\"highlight\">разоружаются<%s3>"
@@ -1582,7 +1582,7 @@
 		//"citadel_ability_wing_blast_desc"		"Create a blast of air that pushes enemies away and damages them."
 		//"modifier_citadel_wing_blast_push"		"Being Vindicta Pushed"
 
-		"citadel_ability_hornet_leap"			"Полёт"
+		"citadel_ability_hornet_leap"			"Flight"
 		"citadel_ability_hornet_leap_quip"		"Усиление оружия в полёте"
 		"citadel_ability_hornet_leap_desc"		"{s:hero_name} взмывает в воздух и <span class=\"highlight\">летит</span>. Во время полёта её пули наносят <span class=\"highlight\">дополнительный спиритический урон</span>."
 		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent}%</span> к базовому боезапасу на время полёта"
@@ -1609,17 +1609,17 @@
 		//"citadel_ability_hornet_mark_t2_desc"	"When a marked enemy is killed, Vindicta immediately gains <span class=\"highlight\">{s:ChargeForKill} Charge for Assassinate</span>"
 		//"modifier_citadel_hornetmark"			"Vindicta's Mark"
 
-		"citadel_ability_hornet_sting"			"Ворон-фамильяр"
+		"citadel_ability_hornet_sting"			"Crow Familiar"
 		"citadel_ability_hornet_sting_quip"		"Цель будет долго истекать кровью"
 		"citadel_ability_hornet_sting_desc"		"Ворон-фамильяр <span class=\"highlight\">наносит урон при ударе</span>, уменьшает сопротивляемость цели пулям и вызывает <span class=\"highlight\">кровотечение</span>, урон которого пропорционален <span class=\"highlight\">текущему здоровью цели</span>."
 		"citadel_ability_hornet_sting_t1_desc"	"Ворон <span class=\"highlight\">до 2 раз рикошетит</span> в других врагов в радиусе {s:TargetBounceRange} м"
 		"citadel_ability_hornet_sting_t3_desc"	"+{s:DotHealthPercent}% к кровотечению и {s:HealAmpReceivePenaltyPercent}% от восстановления"
-		"citadel_ability_hornet_sting/modifier_citadel_hornet_sting_debuff"		"Ворон-фамильяр"
+		"citadel_ability_hornet_sting/modifier_citadel_hornet_sting_debuff"		"Crow Familiar"
 		"BulletVulnerbility_prefix"				"{s:sign}"
 		//"BulletVulnerbility_label"				"Weapon Damage Amplification"
 		"BulletVulnerbility_postfix"				"%"
 
-		"citadel_ability_hornet_snipe"			"Контрольный выстрел"
+		"citadel_ability_hornet_snipe"			"Assassinate"
 		"citadel_ability_hornet_snipe_quip"		"Снайперский выстрел по раненым целям с нанесением большого урона"
 "LowHealthEnemyThresholdPct_label"		"Низкий порог здоровья"
 		"LowHealthEnemyThresholdPct_postfix"	"%"
@@ -1638,7 +1638,7 @@
 		//"citadel_ability_grapplehook_desc"		"Launches out a hook, and pull {s:hero_name} towards the wall it hits."
 		//"modifier_citadel_grapplehook_wall_hanging"	"Grapple Hook Wall Hanging"
 
-		"ability_burrow"			"Зарывание"
+		"ability_burrow"			"Burrow"
 		"ability_burrow_quip"		"Продвижение под землёй и появление с нанесением урона"
 		"ability_burrow_desc"		"Мо и Мелкий зарываются в землю, благодаря чему <span class=\"highlight\">передвигаются быстрее</span> и получают <span class=\"highlight\">защиту от спиритического и пулевого урона</span>. Урон от вражеских героев уменьшает бонус к скорости. При выпрыгивании Мо и Мелкий подбрасывают врагов и быстро вращаются, <span class=\"highlight\">нанося урон противникам и замедляя их</span>. Перезарядка умения начинается после выпрыгивания из-под земли."
 		"modifier_spin"				"Вращение"
@@ -1650,7 +1650,7 @@
 		"ability_burrow_t2_desc"	"<span class=\"highlight\">+{s:DPS}</span> ед. к урону в секунду от вращения и +{s:Radius} м к радиусу"
 		"ability_burrow_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}</span> c. от времени перезарядки и <span class=\"highlight\">+{s:BonusMoveSpeed} м/с</span> к скорости передвижения"
 
-		"ability_intimidate"			"Презрение"
+		"ability_intimidate"			"Scorn"
 		"ability_intimidate_quip"		"Нанесение урона врагам поблизости и лечение при каждом попадании"
 		"ability_intimidate_desc"		"Мо и Мелкий наносят <span class=\"highlight\">урон</span> врагам поблизости и <span class=\"highlight\">восстанавливают своё здоровье</span> пропорционально ему. Если урон наносится вражескому герою, здоровья восстанавливается больше."
 		"ability_intimidate_t3_desc"	"На врагов накладывается ослабление, которое позволяет Мо и Мелкому наносить им на <span class=\"highlight\">{s:DamageBonus}% больше урона</span>. Эффект суммируется и действует {s:DebuffDuration} с."
@@ -1660,14 +1660,14 @@
 		"DamageHealMultNonHero_postfix"		"x"
 		"modifier_intimidate_debuff"		"Презрение"
 
-		"ability_throw_sand"			"Песочная волна"
+		"ability_throw_sand"			"Sand Blast"
 		"ability_throw_sand_quip"		"Обезоруживание находящихся впереди врагов"
 		"ability_throw_sand_desc"		"Мо и Мелкий разбрасывают песок, который <span class=\"highlight\">обезоруживает</span> врагов перед ними и наносит <span class=\"highlight\">урон</span>."
 		"modifier_citadel_throw_sand_debuff"	"Под песочной волной"
 
 		"ability_throw_sand_t3_desc"	"Замедление цели на <span class=\"highlight\">{s:SlowPercent}%</span>"
 
-		"ability_ult_combo"				"Комбо"
+		"ability_ult_combo"				"Combo"
 		"ability_ult_combo_quip"		"Удержание вражеского героя на месте и нанесение ему побоев"
 		"ability_ult_combo_desc"		"Цель удерживается на месте, <span class=\"highlight\">оглушается и получает урон</span>. Если во время применения умения враг погибает, у Мо и Мелкого навсегда повышается макс. объём здоровья."
 		"ability_ult_combo_t1_desc"		"<span class=\"highlight\">+{s:ComboBulletResist}%</span> к сопротивляемости пулям, когда умение активно"
@@ -1685,13 +1685,13 @@
 		//-----------------------------------------------------------------------------
 		// Shiv
 		//-----------------------------------------------------------------------------
-		"citadel_ability_shiv_dagger"			"Зазубренные ножи"
+		"citadel_ability_shiv_dagger"			"Serrated Knives"
 		"citadel_ability_shiv_dagger_quip"		"Накладывает на жертву суммирующееся кровотечение"
 		"citadel_ability_shiv_dagger_desc"		"Заточка бросает кинжал, который <span class=\"highlight\">наносит врагу урон и вызывает у него кровотечение</span>. Каждое последующее попадание кинжалом добавляет <span class=\"highlight\">единицу этого эффекта</span>, а отсчёт времени его действия начинается заново. Урон от кровотечения увеличивается с каждой добавленной единицей эффекта."
 		"citadel_ability_shiv_dagger_max_rage_desc" "Когда изучен ульт: <span class=\"highlight\">при заполненной шкале ярости</span> нож отскочит в ещё одного врага, а к кровотечению добавится замедление."
-		"modifier_shiv_bleed_thrown_shiv"			"Зазубренные ножи"
-		"modifier_citadel_shiv_dagger"			"Зазубренные ножи"
-		"modifier_shiv_thrown_shiv_slow_debuff"		"Зазубренные ножи"
+		"modifier_shiv_bleed_thrown_shiv"			"Serrated Knives"
+		"modifier_citadel_shiv_dagger"			"Serrated Knife"
+		"modifier_shiv_thrown_shiv_slow_debuff"		"Serrated Knive"
 		"BleedDPSPerStack_label"					"Урон в сек. от кровотечения за нож"
 		"AOERadius_label"							"Радиус действия"
 		"AOERadius_postfix"						" м"
@@ -1703,7 +1703,7 @@
 		"BleedDuration_label"						"Длительность кровотечения"
 		"BleedDuration_postfix"					" с."
 
-		"citadel_ability_shiv_dash"				"Режущий рывок"
+		"citadel_ability_shiv_dash"				"Slice and Dice"
 		"citadel_ability_shiv_dash_quip"		"Рывок вперёд, наносящий урон всем врагам на пути"
 		"citadel_ability_shiv_dash_desc"		"Заточка совершает <span class=\"highlight\">рывок вперёд, нанося урон врагам на пути</span>.<br><br>Когда изучен ульт: <span class=\"highlight\">при заполненной шкале ярости</span> после небольшой задержки по траектории рывка пролетает эхо Заточки, наносящее урон ещё раз."
 		"citadel_ability_shiv_dash_t3_tooltip"	"При попадании"
@@ -1715,14 +1715,14 @@
 		"ImpactMoveSlow_label"					"Замедление передвижения от удара"
 		"ImpactMoveSlow_postfix"					"%"
 		"DashSlowPct_label"						"Замедление рывка"
-		"modifier_citadel_shiv_dash"				"Режущий рывок"
-		"modifier_shiv_bleed_dash"				"Режущий рывок"
-		"modifier_citadel_shiv_dash_impact_slow"	"Режущий рывок"
-		"modifier_shiv_dash_heal_reduction"		"Уменьшение лечения от режущего рывка"
+		"modifier_citadel_shiv_dash"				"Slice and Dice"
+		"modifier_shiv_bleed_dash"				"Slice and Dice"
+		"modifier_citadel_shiv_dash_impact_slow"	"Slice and Dice"
+		"modifier_shiv_dash_heal_reduction"		"Уменьшение лечения от «Slice and Dice»"
 		"BurstFireOnHeroHit_postfix"				" с."
 		"citadel_ability_shiv_dash_t3_desc"		"Время перезарядки снижается за каждого задетого врага: на {s:CooldownReductionOnHit} c. за героя и на {s:CooldownReductionOnHitNonHero} с. за всех остальных (макс. — на {s:MaxCooldownReductionsFromHits} с. за рывок)"
 
-		"citadel_ability_shiv_defer_damage"		"Кровопускание"
+		"citadel_ability_shiv_defer_damage"		"Bloodletting"
 		"citadel_ability_shiv_defer_damage_quip"	"Откладывает наложение части полученного урона"
 		"citadel_ability_shiv_defer_damage_desc"	"Доля урона, получаемого героем, наносится не сразу, а постепенно. Умение можно активировать, чтобы <span class=\"highlight\">отменить получение части отложенного урона</span>."
 		"citadel_ability_shiv_defer_damage_max_rage_desc" "Когда изучен ульт: <span class=\"highlight\">при заполненной шкале ярости</span> доля откладываемого урона увеличивается."
@@ -1738,7 +1738,7 @@
 		"DeferClearPct_postfix"					"%"
 		
 
-		"citadel_ability_shiv_killing_blow"		"Добивающий удар"
+		"citadel_ability_shiv_killing_blow"		"Killing Blow"
 		"citadel_ability_shiv_killing_blow_quip"	"Перемещается к герою с низким здоровьем и мгновенно убивает его"
 		"citadel_ability_shiv_killing_blow_active_desc"	"Заточка прыгает к вражескому герою и <span class=\"highlight\">мгновенно убивает</span> его, если здоровье жертвы <span class=\"highlight\">ниже порогового</span>. В ином случае наносит {s:Damage} ед. урона."
 		"citadel_ability_shiv_killing_blow_passive_desc" "Пассивное: нанося врагам урон, Заточка наполняется яростью. При заполненной шкале его урон увеличивается, а другие умения получают <span class=\"highlight\">особые свойства</span>."
@@ -1784,20 +1784,20 @@
 		//-----------------------------------------------------------------------------
 		// Pocket // synth
 		//-----------------------------------------------------------------------------
-		"synth_plasma_flux"			"Летающий плащ"
+		"synth_plasma_flux"			"Flying Cloak"
 		"synth_plasma_flux_quip"		"Разрушительный бросок плаща, к которому можно телепортироваться"
 		"synth_plasma_flux_desc"		"{s:hero_name} выпускает оживший плащ, который <span class=\"highlight\">движется вперёд</span> и <span class=\"highlight\">наносит урон врагам</span>. Нажмите <span class=\"highlight\">[{s:in_ability2}]</span>, чтобы <span class=\"highlight\">телепортироваться</span> к плащу."
 		"synth_plasma_flux_t3_desc"	"<span class=\"highlight\">+{s:WeaponDamageBonus} ед. к урону от пуль</span> на {s:WeaponDamageBonusDuration} с.</span> после телепортации к плащу"
 		//"DPSDuration_label"			"Damage Duration"
 		"DPSDuration_postfix"			" с."
-		"modifier_synth_plasma_flux_dps"	"Летающий плащ"
+		"modifier_synth_plasma_flux_dps"	"Flying Cloak"
 		//"WeaponPowerBonus_label"				"Bonus Courage"
 		//"WeaponPowerBonusDuration_label"		"Bonus Courage Duration"
 		//"modifier_synth_plasma_flux_weapon_damage"	"Bonus Weapon Damage"
 		"synth_plasma_flux_teleport"	"Телепортация"
-		"modifier_synth_plasma_flux_auto_projectile"	"Летающий плащ"
+		"modifier_synth_plasma_flux_auto_projectile"	"Flying Cloak"
 
-		"synth_pulse"					"Чемодан заклинателя"
+		"synth_pulse"					"Enchanter's Satchel"
 		"synth_pulse_quip"			"Карман ненадолго прячется в чемодане, а затем наносит урон"
 		"synth_pulse_desc"			"{s:hero_name} <span class=\"highlight\">прячется</span> в своём чемодане. По окончании действия противникам поблизости <span class=\"highlight\">наносится урон</span>. Из чемодана можно вернуться раньше, совершив любое действие."
 		"synth_pulse_t3_desc"			"<span class=\"highlight\">–{s:FireRateSlow}%</span> скорострельности жертв на {s:DebuffDuration} с."
@@ -1822,7 +1822,7 @@
 		//"DamageInterval_label"		"Damage Interval"
 		"DamageInterval_postfix"		" с."
 
-		"synth_barrage"				"Шквал"
+		"synth_barrage"				"Barrage"
 		"synth_barrage_quip"			"Воздушное скольжение и стрельба несколькими снарядами"
 		"synth_barrage_desc"			"{s:hero_name} начинает стрелять снарядами, которые <span class=\"highlight\">наносят урон</span> и <span class=\"highlight\">замедляют скорость передвижения</span> врагов, оказавшихся в радиусе попадания. За каждый снаряд, попавший во вражеского героя, <span class=\"highlight\">{s:hero_name} получает суммирующийся эффект повышения урона</span>.<br>Если умение применяется в воздухе, {s:hero_name} <span class=\"highlight\">парит</span> и продолжает перемещаться в направлении прыжка."
 		"synth_barrage_t3_desc"			"<span class=\"highlight\">+{s:AmpPercentPerStack}%</span> к урону за ед. эффекта и <span class=\"highlight\">{s:Radius} м</span> к радиусу"
@@ -1833,8 +1833,8 @@
 		"AmpPercentPerStack_postfix"	"%"
 		"AmpDuration_label"			"Длительность эффекта"
 		"AmpDuration_postfix"			" с."
-		"modifier_synth_barrage_debuff"	"Замедление от «Шквала»"
-		"modifier_synth_barrage_amp"	"Бонус к урону от «Шквала»"
+		"modifier_synth_barrage_debuff"	"Замедление от «Barrage»"
+		"modifier_synth_barrage_amp"	"Бонус к урону от «Barrage»"
 
 		//"synth_blitz"					"Blitz"
 		//"synth_blitz_quip"			"Your bullets fire faster and apply spirit amp"
@@ -1851,17 +1851,17 @@
 		//"synth_blitz/modifier_synth_blitz"	"Blitz"
 		//"synth_blitz/modifier_synth_blitz_tech_amp"	"Blitz - Spirit Amp"
 
-		"synth_affliction"			"Недуг"
+		"synth_affliction"			"Affliction"
 		"synth_affliction_quip"		"Постепенное нанесение урона врагам поблизости"
 		"synth_affliction_desc"		"{s:hero_name} накладывает на всех врагов поблизости эффект, <span class=\"highlight\">наносящий периодический урон</span>.<br>От него нельзя умереть, и он не активирует умения предметов."
 		"synth_affliction_t2_desc"	"{s:HealAmpReceivePenaltyPercent}% от лечения жертв"
 		"synth_affliction_t3_desc"	"+{s:DPS} ед. к урону в секунду"
-		"modifier_synth_affliction_debuff"	"Недуг"
+		"modifier_synth_affliction_debuff"	"Affliction"
 
 		//-----------------------------------------------------------------------------
 		// Hero: Mirage
 		//-----------------------------------------------------------------------------
-		"mirage_tornado"					"Торнадо"
+		"mirage_tornado"					"Tornado"
 		"mirage_tornado_quip"				"Герой превращается в торнадо, которое поднимает врагов в воздух"
 		"mirage_tornado_desc"				"{s:hero_name} превращается в торнадо, которое движется вперёд, <span class=\"highlight\">наносит врагам урон</span> и <span class=\"highlight\">поднимает их в воздух</span>. Появившись из торнадо, {s:hero_name} получает <span class=\"highlight\">уклонение от пуль</span>."
 		"HoldInPlaceDuration_label"			"Длительность подъёма"
@@ -1870,11 +1870,11 @@
 		"EnemyLiftDuration_postfix"		" с."
 		//"TornadoDuration_label"			"Tornado Lifetime"
 		//"TornadoDuration_postfix"			"s"
-		"modifier_mirage_tornado_lift"	"Торнадо"
-		"modifier_mirage_tornado_slow"	"Замедление от «Торнадо»"
-		"modifier_mirage_tornado_hold_in_place"	"Торнадо"
+		"modifier_mirage_tornado_lift"	"Tornado"
+		"modifier_mirage_tornado_slow"	"Замедление от «Tornado»"
+		"modifier_mirage_tornado_hold_in_place"	"Tornado"
 
-		"mirage_fire_beetles"			"Огненные скарабеи"
+		"mirage_fire_beetles"			"Fire Scarabs"
 		"mirage_fire_beetles_quip"		"Метает во врагов скарабеев, которые крадут здоровье"
 		"mirage_fire_beetles_desc"		"{s:hero_name} начинает метать огненных скарабеев, <span class=\"highlight\">постепенно крадущих максимальное здоровье</span> задетых врагов и <span class=\"highlight\">снижающих их сопротивляемость пулям</span>. Каждого скарабея можно <span class=\"highlight\">метнуть отдельно</span>, но на одного врага не может действовать несколько скарабеев сразу, и они крадут в три раза меньше здоровья у врагов, не являющихся героями."
 		"modifier_mirage_fire_beetles_launch_window"	"Запустить огненных скарабеев"
@@ -1883,25 +1883,25 @@
 		"LaunchWindowCooldown_label"	"Перезарядка"
 		"LaunchWindowCooldown_postfix"	" с."
 		//"AbilityButtonHint_MirageLaunchFireBeetle"	"Launch Fire Beetle"
-		"modifier_mirage_fire_scarabs_health_gain"	"Огненные скарабеи"
-		"modifier_mirage_fire_scarabs_health_loss"	"Огненные скарабеи"
+		"modifier_mirage_fire_scarabs_health_gain"	"Fire Scarabs"
+		"modifier_mirage_fire_scarabs_health_loss"	"Fire Scarabs"
 		"MirageFireScarabsHealthSteal_label"	"Кража от макс. здоровья"
 
-		"mirage_teleport"		"Путник"
+		"mirage_teleport"		"Traveler"
 		"mirage_teleport_quip"	"Телепортация к союзному или вражескому герою"
 		"mirage_teleport_desc"	"Подготавливаемое умение. Выберите союзного или видимого вражеского героя на мини-карте, чтобы <span class=\"highlight\">телепортироваться</span> туда, где он был в момент начала подготовки умения. После телепортации {s:hero_name} получает <span class=\"highlight\">бонус к скорости передвижения</span>, а также <span class=\"highlight\">увеличенную скорострельность до следующей перезарядки</span>."
 		"MirageTeleportMoveSpeed_conditional"	"после телепортации"
-		"mirage_teleport_movespeed"		"Бонус к скорости передвижения от «Путника»"
+		"mirage_teleport_movespeed"		"Бонус к скорости передвижения от «Traveler»"
 		"mirage_teleport_t3_desc"	"После телепортации {s:hero_name} получает <span class=\"highlight\">невосприимчивость</span> к <span class=\"highlight\">оглушению, безмолвию, усыплению, обездвиживанию и обезоруживанию</span> на {s:ImmunityDuration} с."
 
-		"mirage_sand_phantom"			"Метка джинна"
+		"mirage_sand_phantom"			"Djinn's Mark"
 		"mirage_sand_phantom_quip"		"Накладывает эффекты увеличивающегося урона"
 		"mirage_sand_phantom_desc"		"Активное: <span class=\"highlight\">поглощает все множители</span> умения, чтобы они нанесли урон."
 		"mirage_sand_phantom_passive_desc"	"Пассивное: ваши выстрелы накладывают на цель <span class=\"highlight\">увеличивающийся множитель</span>. Когда он достигает максимума на цели или срок его действия истекает, он поглощается, а цель получает <span class=\"highlight\">спиритический урон</span> и ненадолго <span class=\"highlight\">отображается на карте</span>. Финальный урон равен базовому, умноженному на множитель."
 		"mirage_sand_phantom_t1_desc"	"Цель замедляется на {s:MovementSpeedSlow}% на {s:SlowDuration} с., когда накладывается множитель, равный двум или больше"
 		"mirage_sand_phantom_t2_desc"	"+{s:VictimStackDuration} c. к длительности множителя и +{s:ProcDamageBase} ед. к базовому урону"
 		"mirage_sand_phantom_t3_desc"	"{s:SandPhantomProcCooldown} с. между наложениями и +{s:MirageDjinnsMarkMaxStacks} к максимальному множителю"
-		"modifier_mirage_sand_phantom_passive_victim"	"Множитель «Метки джинна»"
+		"modifier_mirage_sand_phantom_passive_victim"	"Множитель «Djinn's Mark»"
 		"ProcDamageBase_label"		"Базовый урон"
 		"VictimStackDuration_label"		"Длительность множителя"
 		"VictimStackDuration_postfix"	" с."
@@ -1926,9 +1926,9 @@
 		"MoveSpeedDuration_prefix"		"+"
 		"MoveSpeedDuration_label"			"Скорость передвижения"
 		"MoveSpeedDuration_postfix"		" с."
-		"modifier_mirage_sand_phantom"	"Кружащийся дервиш"
-		"modifier_mirage_sand_phantom_whirlwind_reflect"	"Кружащийся дервиш"
-		"modifier_mirage_sand_phantom_slow_aura_effect"	"Кружащийся дервиш"
+		"modifier_mirage_sand_phantom"	"Whirling Dervish"
+		"modifier_mirage_sand_phantom_whirlwind_reflect"	"Whirling Dervish"
+		"modifier_mirage_sand_phantom_slow_aura_effect"	"Whirling Dervish"
 
 		"PostCastDelay_postfix"			" с."
 		"StaminaRegenPenalty_postfix"		"%"
@@ -1959,7 +1959,7 @@
 		//-----------------------------------------------------------------------------
 		// TENGU // IVY
 		//-----------------------------------------------------------------------------
-		"citadel_ability_tengu_urn"			"Кудзу-бомба"
+		"citadel_ability_tengu_urn"			"Kudzu Bomb"
 		"citadel_ability_tengu_urn_quip"	"Нанесение урона врагам в указанной области и их замедление"
 		"citadel_ability_tengu_urn_desc"	"В радиусе взрыва образуется участок с шипастой лозой, которая <span class=\"highlight\">ранит</span> и <span class=\"highlight\">замедляет</span> попавших в неё врагов."
 		"citadel_ability_tengu_urn_t3_desc"	"<span class=\"highlight\">+{s:DPS} ед. к урону</span> и <span class=\"highlight\">+{s:Radius} м к радиусу</span>"
@@ -1968,15 +1968,15 @@
 		//"citadel_ability_tengu_ghost_desc"		"Summon a tracking ghost that bounces randomly {s:Bounces} times to new targets after impact. Slows targets hit for 5 seconds."
 		//"citadel_ability_tengu_ghost_t3_desc"	"Bounces +{s:Bounces} additional times"
 
-		"citadel_ability_tengu_stone_form"			"Каменный облик"
+		"citadel_ability_tengu_stone_form"			"Stone Form"
 		"citadel_ability_tengu_stone_form_quip"		"Превращение в непробиваемый камень и оглушение врагов поблизости"
 		"citadel_ability_tengu_stone_form_desc"		"{s:hero_name} превращается в <span class=\"highlight\">непробиваемый камень</span> и врезается в землю, <span class=\"highlight\">нанося урон и оглушая</span> врагов поблизости. Умение лечит на процент от макс. здоровья. Вы можете управлять камнем в воздухе."
 		"citadel_ability_tengu_stone_form_t2_desc"	"<span class=\"highlight\">+{s:Damage} ед. урона</span> и оглушение на <span class=\"highlight\">{s:StunDuration} с.</span>"
 		"MaxHealthRegen_label"						"Лечение от макс. здоровья"
 		"MaxHealthRegen_postfix"					"%"
-		"citadel_ability_tengu_stone_form/modifier_citadel_tengu_stone_form"	"Каменный облик"
+		"citadel_ability_tengu_stone_form/modifier_citadel_tengu_stone_form"	"Stone Form"
 
-		"citadel_ability_tangotether"		"Союзный пакт"
+		"citadel_ability_tangotether"		"Watcher's Covenant"
 		"citadel_ability_tangotether_quip"	"Усиление героя и союзника поблизости"
 		"citadel_ability_tangotether_desc"	"{s:hero_name} получает бонусы и автоматически делится ими с союзниками поблизости. <span class=\"highlight\">Лечение дублируется</span> среди всех соединённых лозой союзников. Для соединения цель должна находиться в вашем поле зрения. Нажмите [{s:in_ability2}], чтобы зафиксировать цель."
 		"citadel_ability_tangotether_t2_desc" "+{s:MoveSpeedBonus} м/с к скорости передвижения"
@@ -1994,7 +1994,7 @@
 
 		"citadel_ability_tangotether_lock"			"Зафиксировать цель"
 
-		"citadel_ability_tengu_lightningcrash"		"Благодатное падение"
+		"citadel_ability_tengu_lightningcrash"		"Falling Grace"
 		"citadel_ability_tengu_lightningcrash_quip"	"Полёт над полем боя"
 		"citadel_ability_tengu_lightningcrash_desc"	"{s:hero_name} подпрыгивает и летит в течение короткого времени. При падении она <span class=\"highlight\">наносит урон</span>, пропорциональный времени полёта, а также получает <span class=\"highlight\">ускоренное восстановление здоровья</span>. Полёт можно завершить преждевременно, нажав <span class='keybind'>[{s:iv_attack}]</span>."
 		"citadel_ability_tengu_lightningcrash_t3_desc"	"<span class=\"highlight\">+{s:Damage}</span> ед. к урону и <span class=\"highlight\">+{s:Regeneration}</span> ед. к восстановлению здоровья"
@@ -2010,7 +2010,7 @@
 		"Regeneration_label"		"Восстановление"
 		"Regeneration_postfix"		" здоровья в с."
 
-		"modifier_tengu_lightningcrash_regeneration" "Восстановление от благодатного падения"	
+		"modifier_tengu_lightningcrash_regeneration" "Восстановление от «Falling Grace»"	
 		 
 		//"citadel_ability_tengu_dragonsfire"			"Wildfire"
 		//"citadel_ability_tengu_dragonsfire_desc"	"Take flight and breathe eldritch flame down on your enemies.  Gain Bullet Resist while flying."
@@ -2026,13 +2026,13 @@
 
 		//"citadel_ability_tengu_dragonsfire_t3_desc"	"<span class=\"highlight\">+{s:AbilityDuration}s</span> Duration and <span class=\"highlight\">+{s:FlyingBulletResist}</span> Flying Bullet Resist"
 
-		"citadel_ability_tengu_airlift"				"Поддержка с воздуха"
+		"citadel_ability_tengu_airlift"				"Air Drop"
 		"citadel_ability_tengu_airlift_quip"		"Смерть с небес! Взлетите, чтобы сбросить бомбу (или союзника) на врагов."
 		"citadel_ability_tengu_airlift_desc"		"{s:hero_name} взмывает в воздух с союзным героем или бомбой. Их сброс приводит к <span class=\"highlight\">большому взрыву</span>, который <span class=\"highlight\">замедляет передвижение врагов</span>. По окончании полёта {s:hero_name} и поднятый ею союзник получают щит от пуль. <br>На время полёта поднятый союзник получает бонус к сопротивляемости пулям, но не может атаковать и наносит {s:AllyOutgoingDamagePercent}% урона. Если умение применяется на союзника, подготовка проходит быстрее. <br>Нажмите на [{s:iv_attack}], чтобы ускориться в полёте. <br>Нажмите на [{s:iv_attack2}], чтобы сбросить союзника или бомбу."
 		"citadel_ability_tengu_airlift_t1_desc"		"<span class=\"highlight\">{s:AirDropBulletArmorReduction}%</span> от сопротивляемости пулям на <span class=\"highlight\">{s:AirDropDebuff02Duration} с.</span> у поражённых врагов"
 		"citadel_ability_tengu_airlift_t2_desc"		"<span class=\"highlight\">+{s:AirDropBulletShield}</span> ед. к прочности щита от пуль и <span class=\"highlight\">+{s:AirDropExplodeRadius} м</span> к радиусу взрыва"
 		"citadel_ability_tengu_airlift_t3_desc"		"На поражённых врагов накладывается <span class=\"highlight\">безмолвие</span> на <span class=\"highlight\">{s:AirDropSilenceDuration} с.</span>"
-		"modifier_airlift_ally"						"Поддержка с воздуха"
+		"modifier_airlift_ally"						"Air Drop"
 
 		"AirDropDebuffDuration_label"		"Длительность замедления"
 		"AirDropDebuffDuration_postfix"		" с."
@@ -2162,25 +2162,25 @@
 		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
 
-		"fathom_scalding_spray"			"Жгучие брызги"
+		"fathom_scalding_spray"			"Scalding Spray"
 		"fathom_scalding_spray_quip"	"Фатом распыляет в конусе перед собой обжигающий кипяток."
 		"fathom_scalding_spray_desc"	"{s:hero_name} разбрызгивает кипяток в конусообразной области перед собой. При попадании во вражеских героев у вас накапливается бонус к урону от пуль."
 		"WeaponDamageBonusPerSec_label"		"Повышение урона от пуль в сек."
 		"WeaponDamageBonusPerSec_postfix"	"%"
 
-		"fathom_breach"				"Прорыв"
+		"fathom_breach"				"Breach"
 		"fathom_breach_quip"		"Прыжок на врагов"
 		"fathom_breach_desc"		"{s:hero_name} прыгает вперёд, нанося урон врагам в области приземления и подбрасывая их в воздух."
 
-		"fathom_defer_damage"		"«Кровопускание» Фатома"
+		"fathom_defer_damage"		"Fathom Bloodletting"
 		"fathom_defer_damage_quip"	"Откладывает получение части урона"
 
-		"fathom_reefdweller_harpoon"		"Рифовый гарпун"
+		"fathom_reefdweller_harpoon"		"Reefdweller Harpoon"
 		"fathom_reefdweller_harpoon_quip"	"Фатом подтягивает себя к поверхности с помощью гарпуна."
 		"fathom_reefdweller_harpoon_desc"	"{s:hero_name} бросает гарпун, который прикрепляется к поверхности и подтягивает героя. Пока {s:hero_name} висит на поверхности, он <span class=\"highlight\">невидим и неуязвим</span>. Враги, которые смотрят прямо на героя, лишают его невидимости."
 		"fathom_reefdweller_harpoon_passive_desc" "Пассивное: когда {s:hero_name} находится вне боя и враги не видят его на мини-карте, у него <span class=\"highlight\">восстанавливается часть макс. здоровья</span> каждую секунду."
-		"modifier_fathom_reefdweller_harpoon_latched"	"Рифовый гарпун"
-		"fathom_reefdweller_harpoon/regen"	"Восстановление от «Рифового гарпуна»"
+		"modifier_fathom_reefdweller_harpoon_latched"	"Reefdweller Harpoon"
+		"fathom_reefdweller_harpoon/regen"	"Восстановление от «Reefdweller Harpoon»"
 		"fathom_reefdweller_harpoon/latched"	"Прикреплён к стене"
 		"NotSeenByEnemiesRegen_label"		"Восстановление от макс. здоровья"
 		"NotSeenByEnemiesRegen_postfix"		"%"
@@ -2466,10 +2466,10 @@
 		//-----------------------------------------------------------------------------
 		// Yamato
 		//-----------------------------------------------------------------------------
-		"citadel_ability_power_slash"		"Мощное рассечение"
+		"citadel_ability_power_slash"		"Power Slash"
 		"citadel_ability_power_slash_quip"	"Мощная атака, наносящая большой урон при полном заряде"
 		"citadel_ability_power_slash_desc"	"Накапливает заряд в течение {s:AbilityCastDelay} секунд, чтобы увеличить урон, затем наносит <span class=\"highlight\">мощный удар мечом</span>.<br>Нажмите на [{s:in_ability1}] или [{s:iv_attack}], чтобы нанести удар раньше, причинив частичный урон."
-		"power_slash_debuff"				"Мощное рассечение"
+		"power_slash_debuff"				"Power Slash"
 		"SlashLength_label"					"Дальность удара"
 		//"SlashWideRadius_label"				"Power Stance Slash Radius"
 		"SlashWideRadius_postfix"			" м"
@@ -2490,7 +2490,7 @@
 		"citadel_ability_power_slash_t2_desc"	"<span class=\"highlight\">{s:AbilityCooldown}</span> c. от времени перезарядки. Снижает скорость передвижения жертв на <span class=\"highlight\">{s:SlowPercent}%</span> на <span class=\"highlight\">{s:SlowDuration} с.</span>"
 		//"StaminaToRemove_label"				"Stamina Drain"
 
-		"citadel_ability_flying_strike"			"Удар в полёте"
+		"citadel_ability_flying_strike"			"Flying Strike"
 		"citadel_ability_flying_strike_quip"	"Подлёт к врагу"
 		"citadel_ability_flying_strike_desc"	"Бросает крюк, <span class=\"highlight\">чтобы достичь врага</span>, после чего <span class=\"highlight\">наносит урон и замедляет цель</span>."
 		"citadel_ability_flying_strike/slow" "Замедление от удара в полёте"
@@ -2498,7 +2498,7 @@
 		"citadel_ability_flying_strike_t3_desc" "<span class=\"highlight\">+{s:WeaponDamageBonus}</span> ед. к урону от пуль на <span class=\"highlight\">{s:WeaponPowerIncreaseDuration} с.</span> после попадания по цели"
 		"yamato_flying_strike_t3_header"			"При попадании по цели:"
 
-		"citadel_ability_infinity_slash"		"Превращение в тень"
+		"citadel_ability_infinity_slash"		"Shadow Transformation"
 		"citadel_ability_infinity_slash_quip"	"Ямато становится неуязвимой и более сильной"
 		//"citadel_ability_infinity_slash_buff_header" "Per Hero Hit"	
 		"ShadowDuration_label"					"Задержка до взрыва"
@@ -2510,10 +2510,10 @@
 		"AbilitySpeedPct_postfix"				"%"
 		"citadel_ability_infinity_slash/timer"	"Теневой облик"
 
-		"citadel_ability_healing_slash"			"Багровый удар"
+		"citadel_ability_healing_slash"			"Crimson Slash"
 		"citadel_ability_healing_slash_quip"	"Нанесение урона врагам поблизости и лечение при попадании"
 		"citadel_ability_healing_slash_desc"	"Обрушивает удары на врагов перед собой, <span class=\"highlight\">нанося им урон и замедляя их скорострельность</span>. При попадании по вражеским героям получает <span class=\"highlight\">лечение</span>."
-		"citadel_ability_healing_slash/debuff"	"Багровый удар"
+		"citadel_ability_healing_slash/debuff"	"Crimson Slash"
 		"HealMaxHealth_label"					"Лечение при попадании в героев"
 		"HealMaxHealth_postfix"					"% макс. здоровья"
 		"HealFixedHealth_label"					"Лечение при попадании в героев"
@@ -2571,7 +2571,7 @@
 		//-----------------------------------------------------------------------------
 		// Viscous
 		//-----------------------------------------------------------------------------
-		"viscous_goo_grenade"							"Брызги"
+		"viscous_goo_grenade"							"Splatter"
 		"viscous_goo_grenade_desc"						"Вязкус бросает шар, который <span class=\"highlight\">наносит урон</span> и оставляет лужи слизи, <span class=\"highlight\">замедляющие</span> наступивших в них врагов."
 		"viscous_goo_grenade_bounce_desc"				"Повторные попадания по одному и тому же существу наносят меньше урона."
 		"viscous_goo_grenade_quip"						"Вязкус наносит врагам урон и пачкает всё вокруг"
@@ -2585,7 +2585,7 @@
 		"PuddleDuration_label"							"Время существования лужи"
 		"PuddleDuration_postfix"						" с."
 
-		"viscous_restorative_goo"						"Куб"
+		"viscous_restorative_goo"						"The Cube"
 		"viscous_restorative_goo_desc"					"Вязкус помещает цель в куб из целебной слизи, которая <span class=\"highlight\">защищает от урона и повышает восстановление здоровья</span>. Во время нахождения в кубе <span class=\"highlight\">нельзя ничего делать</span>. В куб можно поместить себя. Нажмите <span class=\"highlight\">[{s:in_mantle}]</span>, чтобы выйти из куба раньше."
 		"viscous_restorative_goo_quip"					"Куб — безопасное место"
 		"viscous_restorative_goo_t1_desc"				"Увеличивает скорость передвижения и восстановление выносливости"
@@ -2593,20 +2593,20 @@
 		"viscous_restorative_goo_buff_desc"				"Выйдя из куба, цель ненадолго получит бонус к <span class=\"highlight\">скорости передвижения и восстановлению выносливости</span>."
 		"PostCubeBuffDuration_label"					"Длительность эффекта"
 		"PostCubeBuffDuration_postfix"					" с."
-		"modifier_restorative_goo"						"Куб"
+		"modifier_restorative_goo"						"The Cube"
 		//"viscous_restorative_goo/modifier_restorative_goo/breakoutProgress"		"Breaking out"
 
 		//"viscous_goo_puddle"							"Goo Form"
 		//"viscous_goo_puddle_desc"						"Turn yourself into a puddle of goo, becoming <span class=\"highlight\">immune to harm</span> and <span class=\"highlight\">dealing damage to nearby enemies</span>."
 		//"viscous_goo_puddle_t3_desc"					"[Not Yet Implemented]"
 
-		"viscous_goo_bowling_ball"						"Шар из слизи"
+		"viscous_goo_bowling_ball"						"Goo Ball"
 		"viscous_goo_bowling_ball_desc"					"Вязкус превращается в большой шар из слизи, который <span class=\"highlight\">наносит урон</span> задетым врагам и <span class=\"highlight\">замедляет</span> их. Шар сильно повышает сопротивляемость <span class=\"highlight\">пулям</span> и <span class=\"highlight\">спиритизму</span>, отскакивает от стен и может делать <span class=\"highlight\">двойной прыжок</span>."
 		"viscous_goo_bowling_ball_quip"					"Кульбиты, сеющие хаос"
 		"viscous_goo_bowling_ball_t3_desc"				"Во время катания можно использовать умения и предметы"
 		"BallRadius_label"								"Радиус шара"
 		"BallRadius_postfix"								" м"
-		"viscous_telepunch""Удар из лужи"
+		"viscous_telepunch""Puddle Punch"
 		"viscous_telepunch_desc"						"Вязкус материализует огромный кулак, который <span class=\"highlight\">ударяет</span> и подбрасывает существ в указанной области. Враги <span class=\"highlight\">получают урон</span>, у них ненадолго снижается дальность рывка и <span class=\"highlight\">скорость передвижения</span>. Эта атака считается <span class=\"highlight\">лёгким ударом</span>."
 		"viscous_telepunch_quip"						"Мощный удар гигантским кулаком"
 		"viscous_telepunch_t2_desc"						"+{s:Damage} ед. к урону и +{s:SlowPercent}% к замедлению передвижения"
@@ -2615,7 +2615,7 @@
 		//"BonusDamageAmp_label"							"Increased Damage"
 		"BonusDamageAmp_postfix"						"%"
 
-		"viscous_gootapult""Слизепульта"
+		"viscous_gootapult""Splatapult"
 		//"viscous_gootapult_desc"						"Charge up and launch yourself, dealing damage and leaving a slowing area on impact."
 
 		//"GooSlowPercent_label"							"Puddle Slow Percent"
@@ -2790,22 +2790,22 @@
 		//-----------------------------------------------------------------------------
 		// Hero Viper
 		//-----------------------------------------------------------------------------
-		"ability_viper_hookdagger" "Крюк-лезвие"
+		"ability_viper_hookdagger" "Hook Blade"
 		"ability_viper_hookdagger_desc" "{s:hero_name} бросает лезвие, которое наносит <span class=\"highlight_spirit\">спиритический урон</span>. Лезвие быстро возвращается, снова нанося <span class=\"highlight_spirit\">спиритический урон</span> и ненадолго <span class=\"highlight\">замедляя</span> врагов."
 		"ability_viper_hookdagger_t3_desc"	"{s:hero_name} бросает ещё <span class=\"highlight\">2 лезвия</span>"
 		"ability_viper_hookdagger_quip" "Бросок возвращающегося лезвия"
 
-		"ability_viper_snakedash" "Ползание"
+		"ability_viper_snakedash" "Slither"
 		"ability_viper_snakedash_desc" "{s:hero_name} имеет повышенную дальность скольжения и скорость поворота в нём, а также может скользить вверх по склону.</span>"
 		"ability_viper_snakedash_quip" "Повышенная ловкость при скольжении"
 
-		"modifier_snakedash" "Змеиное обличие"
+		"modifier_snakedash" "Snakeform"
 		"OutgoingDamage_label" "Начальный урон"
 		"ReturnDamage_label" "Урон от возврата"
 		"OutgoingProjectileLifetime_label" "Задержка перед возвратом"
 		"OutgoingProjectileLifetime_postfix" " с."
 
-		"ability_viper_venom" "Смертельный яд"
+		"ability_viper_venom" "Lethal Venom"
 		"ability_viper_venom_desc" "{s:hero_name} вводит в цель смертельный яд. Через определённое время яд срабатывает и наносит <span class=\"highlight_spirit\">спиритический урон</span>. Урон увеличивается в зависимости от того, сколько здоровья недостаёт цели.<br><br><span class=\"diminish\">Повторное введение яда обновляет длительность его действия.<br>Яд снимает эффект окаменения перед взрывом.</span>"
 		"VenomMinDamage_label"			"Мин. урон от яда"
 		"VenomMaxDamage_label"			"Макс. урон от яда"
@@ -2819,7 +2819,7 @@
 		"ability_viper_venom_quip" "Введение смертельного яда врагам"
 
 		
-		"ability_viper_ult" "Окаменение"
+		"ability_viper_ult" "Petrify"
 		"ability_viper_ult_desc" "{s:hero_name} создаёт на земле заколдованную область. После задержки ВСЕ существа в области <span id=\"TestID\"/></span><span class=\"highlight\">каменеют</span>, а врагам наносится <span class=\"highlight_spirit\">спиритический урон</span>.<br><br><span class=\"diminish\">Окаменение полностью защищает от урона, но не позволяет совершать никаких действий.<br>Действия окаменения прекращается, когда оно заблокирует достаточно урона.</span>"
 		"PetrifyDuration_label"			"Длительность окаменения"
 		"PetrifyDuration_postfix"		" с."
@@ -2828,7 +2828,7 @@
 		"ability_viper_ult_quip" "Союзники и враги превращаются в камень"
 		"HalfHeight_postfix"	" м"
 
-		"ability_viper_debuffdagger" "Вертящийся кинжал"
+		"ability_viper_debuffdagger" "Screwjab Dagger"
 		"ability_viper_debuffdagger_desc" "{s:hero_name} бросает кинжал, наносящий <span class=\"highlight_spirit\">спиритический урон</span> и накладывающий <span class=\"highlight\">затухающее замедление</span>."
 		"ability_viper_debuffdagger_t3_desc"	"<span class=\"highlight\">+{s:SlowDuration} с.</span> к длительности замедления и <span class=\"highlight\">-{s:StaminaReduction} ед. выносливости</span>"
 
@@ -2837,21 +2837,21 @@
 		// Hero Magician
 		//-----------------------------------------------------------------------------
 		
-		"ability_magician_magicbolt" "Досаждающий заряд"
+		"ability_magician_magicbolt" "Vexing Bolt"
 		"ability_magician_magicbolt_desc" "{s:hero_name} выпускает магический заряд, который наносит <span class=\"highlight_spirit\">спиритический урон</span> и <span class=\"highlight\">снижает скорострельность</span>. <br><br>Нажмите <span class=\"highlight\">[{s:in_ability1}]</span>, чтобы <span class=\"highlight\">перенаправить</span> заряд в сторону вашего прицела."
 		"ProjectileRedirectCount_label" "Максимум перенаправлений"
 		"ability_magician_magicbolt_quip" "Запуск управляемого заряда магии"
-		"citadel_ability_magewalk" "Дезориентация"
+		"citadel_ability_magewalk" "Misdirection"
 		"citadel_ability_magewalkk_desc" "В течение короткого периода перед появлением {s:hero_name} <span class=\"highlight\">не может быть выбран целью</span>. Первые <span class=\"highlight\">атаки ({s:EmpoweredAttackCount})</span> наносят дополнительный <span class=\"highlight_spirit\">спиритический урон</span>. <br><br><span class=\"highlight\">[Огонь]</span> Появление в новом месте.<br><span class=\"highlight\">[Альт. огонь]</span> Появление в старом месте.</span><br><span class=\"diminish\">Враги не знают, где именно вы появитесь.</span>"
 		"MageTime_label" "Нельзя сделать целью"
 		"MageTime_postfix" " с."
-		"modifier_magewalk_empoweredattacks" "Счастливая карта"
+		"modifier_magewalk_empoweredattacks" "Lucky Card"
 
-		"ability_magician_cloneturret" "Призрачная помощница"
+		"ability_magician_cloneturret" "Spectral Assistant"
 		"ability_magician_cloneturret_t3_desc" "Помощница также имитирует применение «Досаждающего заряда»"
 		"ability_magician_cloneturret_quip" "Призыв верной помощницы"
 
-		"ability_magician_animalcurse" "Кроличий сглаз"
+		"ability_magician_animalcurse" "Rabbit Hex"
 		"ability_magician_animalcurse_desc" "{s:hero_name} превращает цель в <span class=\"highlight\">кролика</span>. Кролики меньше и быстрее героев, но получают увеличенный урон и не могут выполнять большинство действий.<br><span class=\"highlight\">[Огонь]</span> Превращение выбранного героя.<br><span class=\"highlight\">[Альт. огонь]</span> Превращение себя.<br><span class=\"diminish\">Превращение не прерывает умения.</span>"
 		"ability_magician_animalcurse/animalhex_curse_modifier" "Сглазили!"
 		"ability_magician_animalcurse_t3_desc" "Враги поблизости тоже <span class=\"highlight\">превращаются в кроликов</span>, но на <span class=\"highlight\">половину длительности</span>"
@@ -2860,10 +2860,10 @@
 		"ability_magician_animalcurse_quip" "Превращение врага в кролика"
 		
 
-		"ability_magician_stage" "Невольный зритель"
+		"ability_magician_stage" "Captive Audience"
 		"ability_magician_stage_desc" "{s:hero_name} заточает себя и выбранного героя на сцене, выталкивая с неё остальных существ."
 
-		"ability_magician_shadowclone" "Великий гомункул!"
+		"ability_magician_shadowclone" "The Great Homonculus!"
 		"ability_magician_shadowclone_desc" "{s:hero_name} создаёт своего <span class=\"highlight\">клона</span> с уменьшенным уровнем здоровья и уроном. Когда клон умирает или срок его жизни истекает, он взрывается, нанося спиритический урон.<br><br><span class=\"diminish\">Клон не может использовать ульт.</span>"
 		"CloneHealthPercentage_label" "Здоровье клона"
 		"CloneHealthPercentage_postfix" "%"
@@ -2873,7 +2873,7 @@
 		"CloneLifetime_postfix" " с." 
 		"ability_magician_shadowclone_t3_desc"	"Клон может применять собственный <span class=\"highlight\">ульт</span>"
 
-		"ability_magician_bigbolt" "Гранд-финал!"
+		"ability_magician_bigbolt" "Grand Finale!"
 		"ability_magician_bigbolt_desc" "{s:hero_name} готовит три НЕВЕРОЯТНЫХ магических заряда. Каждый из них накладывает <span class=\"highlight\">затухающее замедление</span> и наносит <span class=\"highlight_spirit\">спиритический урон</span>, увеличивающийся с <span class=\"highlight\">каждым выпущенным зарядом</span>."
 		"TotalBolts_label" "Число зарядов"
 		"DamagePerShot_label" "Увеличение урона за заряд"
@@ -2883,7 +2883,7 @@
 		//-----------------------------------------------------------------------------
 		// Hero Trapper
 		//-----------------------------------------------------------------------------
-		"ability_trapper_spiderjar" "Банка ужаса"
+		"ability_trapper_spiderjar" "Jar of Terror"
 		"ability_trapper_spiderjar_desc" "{s:hero_name} бросает банку, которая взрывается в указанной точке, нанося <span class=\"highlight_spirit\">спиритический урон</span>. Из банки вылезают пауки, которые преследуют врагов поблизости и наносят дополнительный <span class=\"highlight_spirit\">спиритический урон</span>.<br><br> <span class=\"diminish\">Враги могут уничтожить пауков.</span>"
 		"JarDamage_label" "Урон от взрыва"
 		
@@ -2892,13 +2892,13 @@
 		"ShieldTechArmor_label" "Сопротивляемость щита от спиритизма"
 		"ShieldTechArmor_postfix" "%"
 
-		"ability_trapper_fear" "Призрачный шёлк"
+		"ability_trapper_fear" "Spectral Silk"
 		"ability_trapper_fear_desc" "Нанесение спиритического урона накладывает накапливаемое <span class=\"highlight\">замедление</span>. Когда эффект достигает максимума, он поглощается, чтобы <span class=\"highlight\">обездвижить цель</span> и нанести ей <span class=\"highlight_spirit\">спиритический урон</span>.<br><br>Эффект перезаряжается отдельно для каждой цели."
 		"ability_trapper_fear/trapper_fear_modifier" "Страх"
 		"BuildupSpiritDamageThreshold_label" "Порог спиритического урона"
 		"BuildUpProcDamage_label" "Урон при поглощении"
 
-		"ability_trapper_webwall" "Шёлковая ловушка"
+		"ability_trapper_webwall" "Silktrap"
 		"ability_trapper_webwall_desc" "{s:hero_name} создаёт сеть между двумя поверхностями. Коснувшиеся её враги получают <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">урон</span> и <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">замедляются</span>."
 		"WallToWallDistance_label" "Макс. протяжённость сети"
 		"WallToWallDistance_postfix" " м"

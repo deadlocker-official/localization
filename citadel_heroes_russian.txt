@@ -1621,7 +1621,10 @@
 
 		"citadel_ability_hornet_snipe"			"Assassinate"
 		"citadel_ability_hornet_snipe_quip"		"Снайперский выстрел по раненым целям с нанесением большого урона"
-"LowHealthEnemyThresholdPct_label"		"Низкий порог здоровья"
+		"citadel_ability_hornet_snipe_desc"		"{s:hero_name} совершает из своей винтовки мощный дальний выстрел. Если он производится до накопления полного заряда (раньше чем через {s:TimeToFullCharge} с. после взгляда в прицел), урона наносится меньше. Врагам, у которых <span class=\"highlight\">меньше {s:LowHealthEnemyThresholdPct}% здоровья</span>, наносится <span class=\"highlight\">дополнительный урон</span>. Если выстрел оказывается смертельным, {s:hero_name} получает <span class=\"highlight\">дополнительные души</span>."
+		//"citadel_ability_hornet_snipe_t3_desc"	"Assassinate kills grant +{s:BonusGoldOnKill} souls"
+		"LowHealthEnemyDamageBonus_label"		"Макс. доп. урон"
+		"LowHealthEnemyThresholdPct_label"		"Низкий порог здоровья"
 		"LowHealthEnemyThresholdPct_postfix"	"%"
 		"BonusGoldOnKill_label"					"Бонусных душ за убийство"
 		"assassin_modifier"						"+к урону от пуль"
@@ -1629,6 +1632,10 @@
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"Урон при попадании в голову"
 		"HeadshotBonus_postfix"					"%"
+		"TimeToFullCharge_label"				"Достижение полного заряда"
+		"TimeToFullCharge_postfix"				" с."
+		"MinChargeDamagePercent_label"			"Урон без полного заряда"
+		"MinChargeDamagePercent_postfix"		"%"
 		"AbilityButtonHint_AssassinateFoVCycle"	"Переключение приближения"
 
 		//-----------------------------------------------------------------------------

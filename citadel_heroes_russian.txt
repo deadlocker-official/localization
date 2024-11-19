@@ -2860,6 +2860,7 @@
 		"modifier_magewalk_empoweredattacks" "Lucky Card"
 
 		"ability_magician_cloneturret" "Spectral Assistant"
+		"ability_magician_cloneturret_desc" "{s:hero_name} призывает <span class=\"highlight\">помощницу</span> в выбранном месте. <span class=\"highlight\">Помощница</span> атакует врагов, нанося им <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">спиритический урон</span>, когда вы стреляете из оружия. <br><br>Вы можете нажать <span class=\"highlight\">[{s:in_ability2}]</span>, чтобы поменяться с <span class=\"highlight\">помощницей</span> местами. Это можно сделать только единожды. <br><br><span class=\"diminish\">Призыв помощницы также перезаряжает ваше оружие.</span>"
 		"ability_magician_cloneturret_t3_desc" "Помощница также имитирует применение «Досаждающего заряда»"
 		"ability_magician_cloneturret_quip" "Призыв верной помощницы"
 
